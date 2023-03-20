@@ -1,0 +1,1345 @@
+byte,bit,nummer,text
+180,0,700000,A0
+180,1,700001,A1OB121 Fehler während der Bearbeitung des PLC-Programms
+180,2,700002,A2
+180,3,700003,A3
+180,4,700004,A4
+180,5,700005,A5
+180,6,700006,A6FC63 Betriebsart Einrichtbetrieb (ER) dedektiert
+180,7,700007,"A7FC105 Ein oder mehrere ProfiNet-Device sind ausgefallen oder gestört, Taste Reset betätigen"
+181,0,700008,"A8FC1202 Speisung 115V/230V: Allgemein nicht in Ordnung, Taste Reset betätigen ( F201 )"
+181,1,700009,"A9FC1202 Speisung 115V/230V: Elektronik nicht in Ordnung, Taste Reset betätigen ( F203 )"
+181,2,700010,A10FC1202
+181,3,700011,A11FC1202
+181,4,700012,A12FC1202
+181,5,700013,A13FC1202
+181,6,700014,A14FC1201 Netz: Schutzschalter Energiemessgerät nicht in Ordnung ( F101 )
+181,7,700015,A15FB1551 Uhrzeit und Datum von PLC und HMI kontrollieren / Fehlertexte MYPLC aktualisieren
+182,0,700016,A16FC1203 Speisung 24V: Nicht in Ordnung ( F310 )
+182,1,700017,A17FC1203 Speisung 24V: Nicht in Ordnung ( F311 )
+182,2,700018,A18FC1203 Speisung 24V: Nicht in Ordnung ( F312 )
+182,3,700019,A19FC1203 Speisung 24V: Nicht in Ordnung ( F313 )
+182,4,700020,A20FC1203 Speisung 24V: Nicht in Ordnung ( F314 )
+182,5,700021,A21FC1203 Speisung 24V: Nicht in Ordnung ( F301 )
+182,6,700022,A22FC1203 Speisung 24V: Nicht in Ordnung ( T305 )
+182,7,700023,A23FC1203 Speisung 24V: Nicht in Ordnung ( T306 )
+183,0,700024,A24FC1204 Schaltschrank: Kühlgerät 2 oder Schutzschalter nicht in Ordnung ( F403 E403 )
+183,1,700025,A25FC1204 Schaltschrank: Temperatur zu hoch ( BT425 )
+183,2,700026,A26FC1204 Schaltschrank: Kühlgerät 1 oder Schutzschalter nicht in Ordnung ( F401 E401 )
+183,3,700027,A27FC1204 Schaltschrank: Kühlgerät 2 oder Schutzschalter nicht in Ordnung ( F402 E402 )
+183,4,700028,A28FC1204
+183,5,700029,A29FC1204
+183,6,700030,"A30FC210 Signal NC-Start ist konstant wahr, eventuell Taste defekt"
+183,7,700031,A31FC1500 Ethernet Hub ist nicht in Ordnung ( XF2501 )
+184,0,700032,M0FC1201 Netz: Überspannung ( FA102 )
+184,1,700033,M1FC222 Löschanlage ausser Betrieb
+184,2,700034,M2FC1201 Elektrischer Netzanschluss ist ausgeschaltet
+184,3,700035,M3FC182 Automatische Applikationsumschaltung nicht erfolgreich abgeschlossen
+184,4,700036,M4FC1500 Automatische Benachrichtigung (E-Mail/FAX/SMS) kann abgesetzt werden
+184,5,700037,M5FC60 Manuelles ein- und ausschalten der Aggregate ist selektiert
+184,6,700038,"M6FB1551 Achtung, Werkstückdaten in der PLC sind inkonsistent. Werkstück muss aus der Reishauer-Werkstückverwaltung neu geladen werden."
+184,7,700039,M7FC1203 Unterspannungsversorgungsanlage inaktiv ( TC302 )
+185,0,700040,M8FC60 Bitte Schutztür schliessen
+185,1,700041,"M9FC206 Schutztür: Öffnen nicht möglich, Kein X-Achsenstillstand"
+185,2,700042,"M10FC206 Schutztür: Öffnen nicht möglich, Kein Y-Achsenstillstand"
+185,3,700043,"M11FC206 Schutztür: Öffnen nicht möglich, Kein Z-Achsenstillstand"
+185,4,700044,"M12FC206 Schutztür: Öffnen nicht möglich, Kein A-Achsenstillstand"
+185,5,700045,"M13FC206 Schutztür: Öffnen nicht möglich, Kein B-Achsenstillstand"
+185,6,700046,"M14FC206 Schutztür: Öffnen nicht möglich, Kein C1-Achsenstillstand"
+185,7,700047,"M15FC206 Schutztür: Öffnen nicht möglich, Kein C2-Achsenstillstand"
+186,0,700048,"M16FC206 Schutztür: Öffnen nicht möglich, Kein W1-Achsenstillstand"
+186,1,700049,"M17FC206 Schutztür: Öffnen nicht möglich, Kein W2-Achsenstillstand"
+186,2,700050,"M18FC206 Schutztür: Öffnen nicht möglich, Kein C3-Achsenstillstand"
+186,3,700051,"M19FC206 Schutztür: Öffnen nicht möglich, Kein C4-Achsenstillstand"
+186,4,700052,"M20FC206 Schutztür: Öffnen nicht möglich, Kein P-Achsenstillstand"
+186,5,700053,"M21FC206 Schutztür: Öffnen nicht möglich, Kein RP-Achsenstillstand"
+186,6,700054,"M22FC206 Schutztür: Öffnen nicht möglich, Notrückzug ist aktiv"
+186,7,700055,M23FC206
+187,0,700056,M24FC207 Achsenzustimmung fehlt
+187,1,700057,M25FC207 Fusszustimmschalter ist durchgedrückt
+187,2,700058,M26FC207 Schlüsselschalter nicht auf Stellung Freigabe Zustimmung ( 1S1201 )
+187,3,700059,M27FC207 Achsen Zustimmzeit überschritten
+187,4,700060,M28FC207 Achsenzustimmung nicht möglich (Fronttür oder Rundtür schliessen)
+187,5,700061,M29FC63 Schlüsselschalter nicht auf Stellung Maschine ein ( 1S1220 )
+187,6,700062,M30FC212 Starten nur mit ausgeschalteter Freigabe Zustimmung möglich
+187,7,700063,M31FC60 Schleifwerkzeugabdeckung B-Achse schliessen
+188,0,700100,"A32FC205 Not-Halt: Beladeseite, Taste Reset betätigen"
+188,1,700101,"A33FC205 Not-Halt: Wartungsschalter, Taste Reset betätigen ( 2S501 )"
+188,2,700102,"A34FC205 Not-Halt: Taste Bedienung, Taste Reset betätigen ( 1S501 )"
+188,3,700103,"A35FC205 Not-Halt: Schleifölanlage, Taste Reset betätigen"
+188,4,700104,"A36FC205 Not-Halt: Lader, Taste Reset betätigen"
+188,5,700105,"A37FC205 Not-Halt: Sichere Kommunikation Maschine-Schleifölaufbereitung aktiviert, die Brücken am INSE16 müssen entfernt werden."
+188,6,700106,A38FC205 Not-Halt: Von Zentrale ausgelöst
+188,7,700107,"A39FC205 Not-Halt: Sichere Kommunikation Maschine-Lader aktiviert, die Brücken am INSE1 müssen entfernt werden."
+189,0,700108,A40FC205 Not-Halt: HT8 ausgelöst oder Fehlerhaft
+189,1,700109,"A41FC205 Not-Halt: Speisung 230V nicht in Ordnung, Taste Reset betätigen ( F505 )"
+189,2,700110,"A42FC205 Not-Halt: Speisung 3x400V nicht in Ordnung, Taste Reset betätigen ( F501 )"
+189,3,700111,"A43FC205 Not-Halt: Fehlerstromschutzschalter nicht in Ordnung, Taste Reset betätigen ( FB503 )"
+189,4,700112,"A44FC205 Not-Halt: Relais nicht in Ordnung, Taste Reset betätigen  ( Q501  Q502  K503  K504 )"
+189,5,700113,"A45FC205 Not-Halt: Relais nicht in Ordnung, Taste Reset betätigen  ( K511  K512 )"
+189,6,700114,"A46FC205 Not-Halt: Relais nicht in Ordnung, Taste Reset betätigen  ( Q521T )"
+189,7,700115,A47FC205
+190,0,700116,A48FC206 Profibusslave 8 (Automatische Beschickungstür) nicht bereit oder fehlerhaft
+190,1,700117,A49FC206 Beschickungstür nicht geschlossen oder verriegelt
+190,2,700118,A50FC206 Speisung 3x400V für automatische Beschickungstür nicht in Ordnung ( F640 )
+190,3,700119,A51FC206 Fronttür: Die Schaltzustände der Relais nicht in Ordnung ( K601 K602 )
+190,4,700120,A52FC206 Fronttür nicht geschlossen oder verriegelt
+190,5,700121,A53FC206 Fronttür nicht entriegelt
+190,6,700122,A54FC206 Schutztür öffnen nicht möglich: C1-Achsverstärker Relais nicht abgefallen. ( T5201 K1/K2 )
+190,7,700123,A55FC206 Schutztür öffnen nicht möglich: C2-Achsverstärker Relais nicht abgefallen. ( T5201 K1/K2 )
+191,0,700124,A56FC206 Beschickungstür: Störung automatischer Türantrieb. Anzeige am Antriebsverstärker beachten. ( K641 )
+191,1,700125,A57FC206 Schutzraum Lader nicht geschlossen
+191,2,700126,A58FC206 Schutzraum Lader nicht geöffnet
+191,3,700127,A59FC206 Schutztüren Laderseite: Die Schaltzustände der Relais sind nicht in Ordnung ( K631 K632 )
+191,4,700128,A60FC206 Schutztür Werkzeugwechsel: Nicht geschlossen oder verriegelt
+191,5,700129,A61FC206 Schaltschrank: Grundposition nicht verriegelt ( A641 )
+191,6,700130,A62FC206 Die Beschickungstür ist nicht ganz offen
+191,7,700131,A63FC206 Schaltschrank: Nicht in Grundposition ( A641 )
+192,0,700132,M32FC210 Bedienung erforderlich!
+192,1,700133,M33FC210 Zyklus gestoppt -> Bitte Korrekturseite verlassen
+192,2,700134,"M34FC210 Signal NC-Start ist konstant wahr, eventuell Taste defekt"
+192,3,700135,M35FC227 Schleifölanlage: Wartung Verbrauchsmaterial erforderlich
+192,4,700136,M36FC212 Bitte Zusatzbedienung Teilewechsel deaktivieren
+192,5,700137,M37FC212 Beladeautomation: Ausser Kollisionsbereich fahren.
+192,6,700138,M38FC212 Messteil entnehmen und quittieren
+192,7,700139,"M39FB1551 Korrekturen werden bearbeitet, Änderungen nicht möglich"
+193,0,700140,M40FC215 Hydraulik: Vorwarnung Füllstand Minimum Öl ( BL1501 )
+193,1,700141,M41FC215 Hydraulik: Vorwarnung Filter verschmutzt ( BL1503 )
+193,2,700142,M42FC215 Hydraulik: Vorwarnung Öltemperatur ( BL1502 )
+193,3,700143,M43FC215 Hydraulik: Vorwarnung Druckfilter ( BP1504 )
+193,4,700144,"M44FC213 Pneumatik: Luftfeuchtigkeit zu gross, schlechte Luftqualität kann zu Maschinenschäden führen ( BM1320 )"
+193,5,700145,M45FC213 Pneumatik: Druckluft wird aufbereitet
+193,6,700146,M46FC213 Pneumatik: Vorwarnung grosser Luftverbrauch ( B1310 )
+193,7,700147,M47FC213 Pneumatik: Vorwarnung Luftfeuchtigkeit zu hoch ( BM1320 )
+194,0,700148,M48FB1320 Wuchtsystem: Gewichte werden in Neutralstellung gefahren
+194,1,700149,M49FB1320 Wuchten ist aktiv
+194,2,700150,M50FC212 Maschine in Halt nach Taktende auf Anforderung Automation
+194,3,700151,M51FC206 Fronttür nicht geschlossen
+194,4,700152,M52FC206 Schutztür Werkzeugwechsel: Nicht geschlossen
+194,5,700153,M53FC206 Beschickungstür nicht geschlossen
+194,6,700154,M54FC206 Schutztür Schaltschrankseite: Nicht geschlossen
+194,7,700155,M55FC206 Schutztür Schaltschrankseite: Nicht geschlossen oder verriegelt
+195,0,700156,M56FC206 Schutztür Schaltschrankseite: Nicht entriegelt
+195,1,700157,M57FC206 Schutztür Werkzeugwechsel: Nicht geschlossen oder verriegelt
+195,2,700158,M58FC206 Schutztür Werkzeugwechsel: Nicht entriegelt
+195,3,700159,M59FC206 Beschickungstür nicht geschlossen oder verriegelt
+195,4,700160,M60FC206 Beschickungstür nicht entriegelt
+195,5,700161,M61FC206 Schutzraum Lader nicht geschlossen
+195,6,700162,M62FC206 Schutzraum Lader nicht geöffnet
+195,7,700163,M63FC206 Beschickungstür: Warnung automatischer Türantrieb. Anzeige am Antriebsverstärker beachten.( K641 )
+196,0,700200,A64FC206 Rundtüren Laderseite: Die Schaltzustände der Relais sind nicht in Ordnung ( K611 K612 )
+196,1,700201,A65FC206 Schutztür Schaltschrankseite: Nicht geschlossen oder verriegelt
+196,2,700202,A66FC213 Pneumatik: Sperrluft Motoren nicht in Ordnung ( BP1304 )
+196,3,700203,A67FC213 Pneumatik: Kreis 1 konnte nicht ausgeschaltet werden ( BP1301 )
+196,4,700204,A68FC207 Zustimmung: Die Schaltzustände der Relais sind nicht in Ordnung ( K701 K702 )
+196,5,700205,A69FB1328 Einzentriersensor nicht verriegelt oder Endschalter defekt
+196,6,700206,A70FB1317 Spannzange: Luftspaltsensor C1 nicht bereit ( BP1711 / BP1716 )
+196,7,700207,A71FB1317 Spannzange: Luftspaltsensor C2 nicht bereit ( BP1712 / BP1717 )
+197,0,700208,A72FC211 Ethernet Hub ist nicht in Ordnung ( XF1003 )
+197,1,700209,A73FC211
+197,2,700210,A74FC211 WM Fehler: X-Drehgeber Amplitude zu klein
+197,3,700211,A75FC211 WM Fehler: X-Drehgeber Frequenzüberschreitung
+197,4,700212,A76FC211 WM Fehler: C1 Reserve 2
+197,5,700213,A77FC211 WM Fehler: C2 Reserve 2
+197,6,700214,A78FC211 WM Fehler: X-Drehgeber Vorwarnung Amplitude schwach
+197,7,700215,A79FC211 WM Fehler: Netzwerkverbindung zum Bedienrechner fehlerhaft
+198,0,700216,A80FC212 Bedienpanel: Temperatur zu hoch ( BT1221 )
+198,1,700217,A81FC212 Bedienpanel: Speisung Kühlgerät nicht in Ordnung ( F1201 )
+198,2,700218,"A82FC183 Scheifölüberwachung: Schleifölvolumenstrom ist nicht gelernt, bitte zuerst lernen"
+198,3,700219,"A83FC183 Schleifölüberwachung: Geregelter Schleiföldurchfluss nicht in Ordnung, Taste Reset betätigen ( BF3511 )"
+198,4,700220,A84FC183 Scheifölüberwachung: Scheiföldurchfluss ungleich gelerntem Durchfluss ( BF3511 )
+198,5,700221,A85FC183 Scheifölüberwachung: Scheiföldruck ungleich gelerntem Druck ( BP3512 )
+198,6,700222,A86FC211 WM Fehler: Verzahnungsmessung bereits gestartet
+198,7,700223,A87FC211 WM Fehler: Messtaster vor Fahren betätigt.
+199,0,700224,A88FC213 Pneumatik: Kreis 1 nicht in Ordnung ( BP1301 )
+199,1,700225,A89FC213 Pneumatik: Kreis 2 nicht in Ordnung ( BP1303 )
+199,2,700226,A90FC213 Pneumatik: Sperrluft nicht in Ordnung ( BP1302 )
+199,3,700227,A91FC213 Pneumatik: Zu grosser Luftverbrauch ( BF1310 )
+199,4,700228,A92FC213 Pneumatik: Kältetrockner nicht in Ordnung ( A1301 )
+199,5,700229,A93FC213 Pneumatik: Luftfeuchtigkeit zu hoch ( BM1320 )
+199,6,700230,A94FC214 Zentralschmierung: Filter verschmutzt ( BP1403 )
+199,7,700231,A95FC215 Hydraulik: Druckfilter ist verschmutzt ( BP1504 )
+200,0,700232,M64FC206 Beschickungstür: Referenziervorgang ist aktiv
+200,1,700233,M65FC206 Beschickungstür / Ladertür offen
+200,2,700234,M66FC227 Öl-Kühlkreis 2: Vorwarnung Füllstand Öl ( B3550 )
+200,3,700235,M67FC227 Schleifölanlage ist am Abschwemmen
+200,4,700236,M68FC183 Geforderte Schleifölmenge ungleich aktueller Schleifölmenge
+200,5,700237,M69FC190 Vorwarnung Zyklenzähler Spannmittel 1
+200,6,700238,M70FC190 Vorwarnung Zyklenzähler Spannmittel 2
+200,7,700239,M71FB1317 Auflage- oder Spannhubkontrolle ist nicht aktiv
+201,0,700240,M72FC179 Betriebsmittel mehr als 99 x verwendet. Betriebsmittel wird abgelehnt
+201,1,700241,"M73FC179 Produktionslinie, Operation oder Maschinen-Nummer nicht identisch. Betriebsmittel nicht freigegeben"
+201,2,700242,M74FC1140 Öldruckerhöhungsstation: Warnung Frequenzumrichter Hochdruckpumpe. Anzeige am Frequenzumrichter beachten
+201,3,700243,M75FC1140 Öldruckerhöhungsstation: Warnung Frequenzumrichter Rücklaufpumpe. Anzeige am Frequenzumrichter beachten
+201,4,700244,M76FC1140 Öldruckerhöhungsstation: Eingangsventile Funktionstest ist aktiv
+201,5,700245,M77FC1140 Öldruckerhöhungsstation: Ausgangsventil Funktionstest ist aktiv
+201,6,700246,M78FC1140 Öldruckerhöhungsstation: Rückschlagventil Funktionstest ist aktiv
+201,7,700247,M79FC1140 Öldruckstation Eingangsventile 1 + 2 nicht geschlossen. Handabsperrventil sofort schliessen
+202,0,700248,M80FC232 Wälzmodul-Rechner Hochlaufvorgang ist aktiv
+202,1,700249,M81FC232 C1-Achse: JOG-Winkel-Betrag ist zu gross
+202,2,700250,M82FC232 C2-Achse: JOG-Winkel-Betrag ist zu gross
+202,3,700251,"M83FC1204 Schaltschranktüren nicht geschlossen, keine Kühlung Kühlgerät 1"
+202,4,700252,M84FC214 Zentralschmierung: Vorwarnung Filter verschmutzt ( BP1403 )
+202,5,700253,M85FC222 Betriebsbereitschaft der Löschanlage nicht gewährleistet
+202,6,700254,M86FC206 Schaltschrank: Nicht in Grundposition ( A641 )
+202,7,700255,M87FC206 Schaltschrank: Grundposition nicht entriegelt ( A641 )
+203,0,700256,M88FB1434 Werkstück entladen nicht möglich / Maschine wartet auf Werkstück von Lader
+203,1,700257,M89FB1434 Werkstück beladen nicht möglich
+203,2,700258,M90FC227 Schleifölanlage: Wartung Verschleissteile erforderlich
+203,3,700259,M91FB1317 Zyklenzähler Spannmittel 1 abgelaufen
+203,4,700260,M92FB1317 Zyklenzähler Spannmittel 2 abgelaufen
+203,5,700261,M93FC214 Zentralschmierung: Vorwarnung Ölvorratsbehälter leer ( BL1401 )
+203,6,700262,M94FC227 Schleiföl und Schleifölüberwachung sind deaktiviert
+203,7,700263,M95FC37 C3-Achse: Nicht gespannt
+204,0,700300,"A96FC215 Hydraulik: Speisung nicht in Ordnung, Taste Reset betätigen ( F1501 )"
+204,1,700301,A97FC215 Hydraulik: Ölhauptdruck oder Schalter nicht in Ordnung ( BP1505 )
+204,2,700302,A98FC215 Hydraulik: Filter ist verschmutzt ( BP1503 )
+204,3,700303,"A99FC215 Hydraulik: Füllstand Öl nicht in Ordnung, Taste Reset betätigen ( BL1501 )"
+204,4,700304,"A100FC215 Hydraulik: Ölhauptdruck ist zu hoch, oder Schalter nicht in Ordnung ( BP1505 )"
+204,5,700305,A101FC215 Hydraulik: Öltemperatur nicht in Ordnung ( BT1502 )
+204,6,700306,"A102FC215 Hydraulik: Speisung nicht in Ordnung, Taste Reset betätigen ( F1502 )"
+204,7,700307,A103FC215 Relaisfunktionstest der Hydraulik nicht in Ordnung ( Q1501 Q1502 )
+205,0,700308,A104FB1317 Spannzange 1: Spannen nicht in Ordnung ( BP1701 MB1701 )
+205,1,700309,A105FB1317 Spannzange 1: Entspannen nicht in Ordnung ( BP1701 MB701 )
+205,2,700310,A106FB1317 Spannzange 2: Spannen nicht in Ordnung ( BP1702 MB1702 )
+205,3,700311,A107FB1317 Spannzange 2: Entspannen nicht in Ordnung ( BP1702 MB1702 )
+205,4,700312,A108FB1317 Das Werkstück auf Spannmittel 1 liegt nicht richtig auf! ( BP1711 MB1712 )
+205,5,700313,A109FB1317 Das Werkstück auf Spannmittel 2 liegt nicht richtig auf! ( BP1712 MB1715 )
+205,6,700314,A110FB1317 Ausstosskontrolle 1 nicht in Ordnung ( BP1711 MB1712 )
+205,7,700315,A111FB1317 Ausstosskontrolle 2 nicht in Ordnung ( BP1712 MB1715 )
+206,0,700316,"A112FB1320 Wuchtsystem: Fehler nach Sendeauftrag, Taste Reset betätigen"
+206,1,700317,"A113FB1320 Wuchtsystem: Fehler nach Datenempfang, Taste Reset betätigen"
+206,2,700318,"A114FB1320 Wuchtsystem: Falsches Kommando in Quittierungstelegramm, Taste Reset betätigen"
+206,3,700319,"A115FB1320 Wuchtsystem: Fehler in Quittierungstelegramm, Taste Reset betätigen"
+206,4,700320,"A116FB1320 Wuchtsystem: Falsche Parameter-Nr. oder Datenlänge, Taste Reset betätigen"
+206,5,700321,"A117FB1320 Wuchtsystem: Timeout Quittierungstelegramm, Taste Reset betätigen"
+206,6,700322,"A118FB1320 Wuchtsystem: Parameterwert, Aufgabe, Baugruppe oder Auftragsliste nicht definiert, Taste Reset betätigen"
+206,7,700323,A119FB1320 Wuchtsystem nicht bereit
+207,0,700324,A120FB1328 Einzentriersensor Messposition nicht erreicht oder Endschalter defekt ( B2802 )
+207,1,700325,A121FB1328 Einzentriersensor Parkposition nicht erreicht oder Endschalter defekt ( B2801 )
+207,2,700326,"A122FB1328 Einzentriersensor nicht in definierter Position, oder Endschalter defekt ( B2801  B2802 )"
+207,3,700327,A123FB1328 C3-Achse: In Einzentrierposition drehen
+207,4,700328,A124FB1328 Einzentriersensor nicht entriegelt
+207,5,700329,"A125FB1328 Zustellen Einzentriersensor nicht möglich, Spritzschutztüren nicht offen"
+207,6,700330,A126FB1328 Schlitten Einzentriersensor: Schwenkposition nicht in Ordnung
+207,7,700331,A127FB1328 Schlitten Einzentriersensor: Messposition nicht in Ordnung
+208,0,700332,M96
+208,1,700333,M97FB1317 Spannmittel C1: Warnung Spanndruck zu hoch ( BP1701 )
+208,2,700334,M98FB1317 Spannmittel C1: Warnung Spanndruck zu tief ( BP1701 )
+208,3,700335,M99FC1602 Temperaturkompensation: Simulationsmodus aktiviert
+208,4,700336,M100FC1602 Kugelmasskorrektur: Temperaturunterschied zwischen Schleiföl und Maschinenbett ist zu gross
+208,5,700337,M101FC1602 Spindeltemperatur ausserhalb der Toleranz
+208,6,700338,M102FC34 W1-Achse: Bewegung gesperrt solange Lünette zugestellt ist
+208,7,700339,M103FC35 W2-Achse: Bewegung gesperrt solange Lünette zugestellt ist
+209,0,700340,"M104FC60 Anlage am Einschalten, bitte warten"
+209,1,700341,M105FC60 Anlage am Ausschalten
+209,2,700342,M106FC60 Anlage EINSCHALTEN
+209,3,700343,M107FC211 WM Fehler: Vorwarnung ein Lüfter am Mainboard ist ausgefallen
+209,4,700344,M108FC211 WM Fehler: Vorwarnung ein Lüfter der Endstufe ist ausgefallen
+209,5,700345,M109FC232 Wälzmodul wird konfiguriert
+209,6,700346,M110FC232 C1-Achse: Wird ausgerichtet
+209,7,700347,M111FC232 C2-Achse: Wird ausgerichtet
+210,0,700348,M112FC61 Betriebsart Verketteten Betrieb VK detektiert
+210,1,700349,M113FC61 Betriebsart Einzelbetrieb EB detektiert
+210,2,700350,M114FC61 Betriebsart Einrichtbetrieb ER detektiert
+210,3,700351,M115FC61 Betriebsart Einzelschritt ES detektiert
+210,4,700352,M116FC61 Betriebsartenwechsel aktiv
+210,5,700353,M117FB1551 Schutzstufe ungenügend zum Ausführen der Funktion
+210,6,700354,M118FC61 Anwahl nur in BA 1 möglich
+210,7,700355,M119FC156 Neues Werkstück wurde angewählt. Maschine muss umgerichtet werden
+211,0,700356,M120FC86 Sicherheitstest aktiv
+211,1,700357,M121FB1317 Spannmittel C2: Warnung Spanndruck zu tief ( BP1702 )
+211,2,700358,M122FC222 Löschanlage ausgelöst
+211,3,700359,M123FC222 Löschanlage: Störung
+211,4,700360,M124FC214 Zentralschmierung: Führungsschmierung nicht in Ordnung
+211,5,700361,M125FC214 Zentralschmierung: Spindelschmierung nicht in Ordnung
+211,6,700362,M126FC222 Löschanlage: Stellung Kugelhahn Endlage nicht erreicht
+211,7,700363,M127FC222 Löschanlage: Kugelhahn geschlossen
+212,0,700400,A128FC225 Ölnebelabscheider: Tür ist nicht geschlossen ( S3301 )
+212,1,700401,A129FC225 Ölnebelabscheider: Motorschutzschalter nicht in Ordnung ( F3301 )
+212,2,700402,A130FC225 Zentralölnebelabsaugung nicht in Ordnung
+212,3,700403,A131FC225 Ölnebelabsaugung Luftstromsensor nicht in Ordnung
+212,4,700404,A132FC225 Ölnebelabsaugung Luftstromüberwachung nicht in Ordnung
+212,5,700405,A133FC225 Ölabscheider nicht bereit
+212,6,700406,A134FC225 Ölnebelabscheider: Relaisfunktionstest nicht in Ordnung ( Q3301 )
+212,7,700407,"A135FC505 Werkzeugwechsel ausgeführt, Auslösung Werkzeugwechsel wurde gedrückt"
+213,0,700408,A136FC227 Schleifölanlage: Nicht bereit
+213,1,700409,A137FC227 Schleiföldurchfluss oder Durchflussmesser nicht in Ordnung ( BF3511 )
+213,2,700410,A138FC227 Schleifölstand im Maschinenbett ist zu hoch ( BL3505 )
+213,3,700411,A139FC227 Öldruckerhöhungsstation: Thermoschutzschalter Steuerung nicht in Ordnung
+213,4,700412,A140FC227 Öldruckerhöhungsstation: Thermoschutzschalter Pumpen nicht in Ordnung
+213,5,700413,A141FC227 Öldruckerhöhungsstation: Schleiföltemperatur ist zu hoch
+213,6,700414,A142FC227 Öldruckerhöhungsstation: Durchfluss Motorkühlung nicht in Ordnung
+213,7,700415,A143FC227 Öldruckerhöhungsstation: Füllstand Sauberöl nicht in Ordnung
+214,0,700416,A144FC227 Öldruckerhöhungsstation: Rückpumpstation nicht bereit
+214,1,700417,A145FC227 Öl-Kühlkreis 2: Motorschutzschalter nicht in Ordnung ( F3551 )
+214,2,700418,A146FC227 Öl-Kühlkreis 2: Nicht bereit oder ausgeschalten
+214,3,700419,A147FC227 Öl-Kühlkreis 2: Ölfluss nicht in Ordnung
+214,4,700420,A148FC227 Öl-Kühlkreis 2: Füllstand Öl zu tief ( B3550 )
+214,5,700421,A149FC227 Spindelkühlung: Ölfluss nicht in Ordnung ( B3520 B3521 )
+214,6,700422,A150FC183 Schleiföldruck zu hoch ( B35XX )
+214,7,700423,A151FC183 Geforderte Schleifölmenge nicht erreicht. Schleifölregler in negativer oder positiver Begrenzung
+215,0,700424,"A152FC231 Achsenspeisung: Nicht bereit, Taste Reset betätigen ( T4101 )"
+215,1,700425,A153FC231 Achsenspeisung: Nicht einschaltbereit ( T4101 )
+215,2,700426,"A154FC506 Qualitätsprüfung Grenze erreicht, Werkstück entfernen drücken"
+215,3,700427,A155FC214 Zentralschmierung: Speisung nicht in Ordnung ( F1401 )
+215,4,700428,A156FC214 Zentralschmierung: Ölvorratsbehälter leer ( BL1401 )
+215,5,700429,A157FC214 Zentralschmierung: Kreis 1 nicht in Ordnung ( BP1411 )
+215,6,700430,A158FC214 Zentralschmierung: Kreis 2 nicht in Ordnung ( BP1421 )
+215,7,700431,A159FC214 Relaisfunktionstest der Zentralschmierung nicht in Ordnung ( Q1401 )
+216,0,700432,M128FC86 SPL-Programm nicht aktiv ( SAFE_SPF )
+216,1,700433,M129FC189 Identifikation auf RFID-Tag nicht in Ordnung
+216,2,700434,M130FC214 Zentralschmierung: Druck nicht gesunken ( BP1411 )
+216,3,700435,M131FC181 Stellwert der Blindstromkompensation ist erreicht
+216,4,700436,M132OB122 Fehler beim Zugriff auf Daten einer Signalbaugruppe
+216,5,700437,M133FC190 Warnung Standzeit Abrichtwerkzeug
+216,6,700438,M134FC190 Warnung Standzeit Schleifschnecke
+216,7,700439,M135OB100 Anwendermaschinendaten wurden seit dem letzten Start verändert
+217,0,700440,M136FB1434 Beladeautomation ist nicht bereit
+217,1,700441,M137FB1434 Teilecode Lader nicht identisch
+217,2,700442,M138FB1317 Spannmittel C2: Warnung Spanndruck zu hoch ( BP1702 )
+217,3,700443,M139FB1434 Keine Freigabe von Lader für Laderzutritt
+217,4,700444,M140FC233 P-Achse: Sollwertvorgabe ist zu gross
+217,5,700445,"M141FC506 Quality Limit reached, 2 pieces on SPC, press 'Operator in attendance' button"
+217,6,700446,M142FC228 Spritzschutz: Warnung Frequenzumrichter. Anzeige am Frequenzumrichter beachten ( T3601 )
+217,7,700447,M143FC228 Spritzschutz: Warnung Frequenzumrichter. Anzeige am Frequenzumrichter beachten ( T3611 )
+218,0,700448,"M144FC506 Quality Expired Attended, machine on HOLD, press 'Remove Part' and send parts to check"
+218,1,700449,M145FC505 Loader is blocked / Machine will remain in HOLD state until Tool Change is completed
+218,2,700450,M146FC505 Tool Change is Initiated / Replace Tool and set up Machine again
+218,3,700451,M147FC505 Button is locked / Initiate tool change first
+218,4,700452,"M148FC505 Reset desired tool Counter / To continue, Login required, enter 4-digit PIN code"
+218,5,700453,M149FC505 Submit 'Unscheduled Reason Code'
+218,6,700454,M150FC505 Send first 2 ground parts to gear lab / Press '1st Part Check' to continue
+218,7,700455,M151FC505 Set status to OK or NOK once parts checked after tool change
+219,0,700456,M152FC86 Achs-Bremsentest ist aktiv
+219,1,700457,M153FC32 Y-Achse: Bremstest nicht in Ordnung ( M4401 )
+219,2,700458,M154FC33 Z-Achse: Bremstest nicht in Ordnung ( M4601 )
+219,3,700459,"M155FC34 W1-Achse: Bremstest nicht in Ordnung, W1-Achse im JOG-Betrieb in unterste mögliche Position fahren ( M5301 )"
+219,4,700460,"M156FC35 W2-Achse: Bremstest nicht in Ordnung, W2-Achse im JOG-Betrieb in unterste mögliche Position fahren ( M5302 )"
+219,5,700461,"M157FC211 WM Fehler: C1 AEZ-Messen wurde wiederholt, wegen fehlerhaftem Indexsignal"
+219,6,700462,"M158FC211 WM Fehler: C2 AEZ-Messen wurde wiederholt, wegen fehlerhaftem Indexsignal"
+219,7,700463,M159FC105 ProfiNet Switch ist nicht in Ordnung ( XF1004 )
+220,0,700500,A160FC40 BP-Achse: Überlast erreicht
+220,1,700501,A161FC232 C1-Achse: Drehzahl = 0 nicht in Ordnung ( T5201 )
+220,2,700502,A162FC232 C1-Achse: Leistungsstufe nicht bereit ( T5201 )
+220,3,700503,"A163FC232 C1-Achse: Überlast, Taste Reset betätigen"
+220,4,700504,A164FC34 Lünette W1: Position nicht erreicht oder Endschalter defekt ( B5323 B5324 )
+220,5,700505,A165FC35 Lünette W2: Position nicht erreicht oder Endschalter defekt ( B5333 B5334 )
+220,6,700506,A166FC232 C1-Achse: Vorwarnung Motortemperatur ( M5201 )
+220,7,700507,A167FC232 C1-Achse: Vorwarnung Temperatur Leistungsstufe ( M5201 )
+221,0,700508,A168FC232 C1-Achse: Alarm Motortemperatur ( M5201 )
+221,1,700509,A169FC232 C1-Achse: Temperatur-Alarm Leistungsstufe ( T5201 )
+221,2,700510,A170FC232 C2-Achse: Temperatur-Alarm Leistungsstufe ( T5201 )
+221,3,700511,A171FC232 C2-Achse: Alarm Motortemperatur ( M5202 )
+221,4,700512,A172FC232 C2-Achse: Vorwarnung Temperatur Leistungsstufe ( M5202 )
+221,5,700513,A173FC232 C2-Achse: Vorwarnung Motortemperatur ( M5202 )
+221,6,700514,A174FC232
+221,7,700515,A175FC232
+222,0,700516,"A176FC232 C2-Achse: Überlast, Taste Reset betätigen"
+222,1,700517,"A177FC232 C2-Achse: Leistungsstufe nicht bereit, Taste Reset betätigen ( T5201 )"
+222,2,700518,A178FC232 C2-Achse: Drehzahl = 0 nicht in Ordnung ( T5201 )
+222,3,700519,A179FC232
+222,4,700520,A180FC232
+222,5,700521,A181FC232 C1-Achse: Die Schaltzustände der Relais sind nicht in Ordnung ( K5205 K5206 )
+222,6,700522,A182FC232 C2-Achse: Die Schaltzustände der Relais sind nicht in Ordnung ( K5215 K5216 )
+222,7,700523,A183FC233 P-Achse: Referenzpunktschalter nicht in Ordnung
+223,0,700524,A184FC233 P-Achse: Nicht Referenziert
+223,1,700525,A185FC233 P-Achse: Feedback nicht in Ordnung ( MM5401 )
+223,2,700526,A186FC233 P-Achse: Position nicht erreicht
+223,3,700527,A187FC233
+223,4,700528,"A188FC233 P-Achse: Überlastvorrichtung ausgelöst, P-Achse neu Referenzieren"
+223,5,700529,A189FC233 P-Achse: Endlage erreicht
+223,6,700530,A190FC233 P-Achse: Überlastvorrichtung oder Schalter Überlastvorrichtung nicht in Ordnung
+223,7,700531,A191FB1434 Beladeautomation nicht bereit
+224,0,700532,M160 Reserviert für kundenspezifische Meldung
+224,1,700533,M161 Reserviert für kundenspezifische Meldung
+224,2,700534,M162 Reserviert für kundenspezifische Meldung
+224,3,700535,M163 Reserviert für kundenspezifische Meldung
+224,4,700536,M164 Reserviert für kundenspezifische Meldung
+224,5,700537,M165 Reserviert für kundenspezifische Meldung
+224,6,700538,M166 Reserviert für kundenspezifische Meldung
+224,7,700539,M167 Reserviert für kundenspezifische Meldung
+225,0,700540,M168 Reserviert für kundenspezifische Meldung
+225,1,700541,M169 Reserviert für kundenspezifische Meldung
+225,2,700542,M170 Reserviert für kundenspezifische Meldung
+225,3,700543,M171 Reserviert für kundenspezifische Meldung
+225,4,700544,M172 Reserviert für kundenspezifische Meldung
+225,5,700545,M173 Reserviert für kundenspezifische Meldung
+225,6,700546,M174 Reserviert für kundenspezifische Meldung
+225,7,700547,M175 Reserviert für kundenspezifische Meldung
+226,0,700548,M176 Reserviert für kundenspezifische Meldung
+226,1,700549,M177 Reserviert für kundenspezifische Meldung
+226,2,700550,M178 Reserviert für kundenspezifische Meldung
+226,3,700551,M179 Reserviert für kundenspezifische Meldung
+226,4,700552,M180 Reserviert für kundenspezifische Meldung
+226,5,700553,M181 Reserviert für kundenspezifische Meldung
+226,6,700554,M182 Reserviert für kundenspezifische Meldung
+226,7,700555,M183 Reserviert für kundenspezifische Meldung
+227,0,700556,M184 Reserviert für kundenspezifische Meldung
+227,1,700557,M185 Reserviert für kundenspezifische Meldung
+227,2,700558,M186 Reserviert für kundenspezifische Meldung
+227,3,700559,M187 Reserviert für kundenspezifische Meldung
+227,4,700560,M188 Reserviert für kundenspezifische Meldung
+227,5,700561,M189 Reserviert für kundenspezifische Meldung
+227,6,700562,M190 Reserviert für kundenspezifische Meldung
+227,7,700563,M191 Reserviert für kundenspezifische Meldung
+228,0,700600,A192FB1317 Spannzange: Zusatzfunktion C1 ist nicht in Ordnung  ( Y1721 BP1721 )
+228,1,700601,A193FB1317 Spannzange: Zusatzfunktion C2 ist nicht in Ordnung  ( Y1722 BP1722 )
+228,2,700602,A194FC232 C1-Achsenverstärker: Pulsfreigabe Relais nicht in Ordnung
+228,3,700603,A195FC232 C2-Achsenverstärker: Pulsfreigabe Relais nicht in Ordnung
+228,4,700604,A196FB1317 Ausrichtvorrichtung von Spannmittel entfernen und ausserhalb Maschine positionieren
+228,5,700605,A197FC179 FlexNet: Keine Antwort
+228,6,700606,A198FB1434 ProfiNet-Device 31 (Lader PNPN-Koppler) nicht bereit oder fehlerhaft
+228,7,700607,A199FB1434 Profibusslave 31 (Lader DPDP-Koppler) nicht bereit oder fehlerhaft
+229,0,700608,A200FC33 Z-Achse: Absturzsicherung nicht entfernt
+229,1,700609,A201FC86 Fehler SI-Test: Stopp C Test nicht in Ordnung
+229,2,700610,A202FC86 Fehler SI-Test: Kein Achsenstillstand
+229,3,700611,A203FC86 Fehler SI-Test: Keine Impulsfreigabe
+229,4,700612,A204FC86 SI-TEST wurde mit RESET abgebrochen. Anlage Aus-/Einschalten
+229,5,700613,A205FC86 Fehler SI-Test: Impulse nicht gelöscht
+229,6,700614,A206FC86 Fehler SI-Test: Stopp D Test nicht in Ordnung
+229,7,700615,A207FC86 Erkennung Profilschleifkopf D10 fehlerhaft. Sicherer Eingang Profilschleifkopf nicht vorhanden. ( INSE9 )
+230,0,700616,"A208FC36 A-Achse: Klemmung nicht in Ordnung, Taste Reset betätigen ( BP4803 MB4803 )"
+230,1,700617,A209FC34 W1-Achse Riemen nicht in Ordnung ( B5305 )
+230,2,700618,A210FC35 W2-Achse Riemen nicht in Ordnung ( B5315 )
+230,3,700619,A211FC34 W1-Achse: Pinole maximale Vorspannkraft überschritten ( B5304 )
+230,4,700620,A212FC35 W2-Achse: Pinole maximale Vorspannkraft überschritten ( B5314 )
+230,5,700621,A213FC
+230,6,700622,A214FC37 C3-Achse: Nocken C1-Achse in Schleifposition nicht in Ordnung ( B5704 )
+230,7,700623,A215FC37 C3-Achse: Nocken C2-Achse in Schleifposition nicht in Ordnung ( B5703 )
+231,0,700624,A216FC37
+231,1,700625,A217FC37 C3-Achse: Nockenüberwachung nicht in Ordnung ( B5703 B5704 )
+231,2,700626,A218FC37 C3-Achse: Nicht abgehoben ( B5701 MB5701 )
+231,3,700627,A219FC37 C3-Achse: Nicht gespannt ( B5702 MB5702 )
+231,4,700628,A220FC37 Beladeautomation: Ausser Kollisionsbereich fahren.
+231,5,700629,A221FC37 Einzentriersensor in Parkposition schwenken
+231,6,700630,"A222FC37 C3-Achse: Fahren nicht möglich, Messvorrichtung nicht in Parkposition"
+231,7,700631,A223
+232,0,700632,M192FB1502 Handscanner: Doppellesung erkannt
+232,1,700633,M193FB1502 Kein Code vom tragbaren Scanner erkannt
+232,2,700634,M194FB1602 Prozessüberwachung: Deaktiviert
+232,3,700635,M195FB1602 Prozessüberwachung: Warnung
+232,4,700636,M196FB500 Warnung Frequenzumrichter Schleifscheibenreinigung
+232,5,700637,M197
+232,6,700638,M198
+232,7,700639,M199FB1320 Balance Systems: Reset ATK wurde nicht korrekt ausgeführt
+233,0,700640,M200FC218 Hydrostatik: Vorwarnung Druckfilter Kühlkreis verschmutzt ( BP1854 )
+233,1,700641,M201FC218 Hydrostatik: Vorwarnung Druckfilter Systemdruck verschmutzt ( BP1855 )
+233,2,700642,M202FC218 Hydrostatik: Vorwarnung Abluftfilter verschmutzt ( BP1856 )
+233,3,700643,M203FC218 Hydrostatik: Vorwarnung Füllstand Öl ( BL1857 )
+233,4,700644,M204FC218 Hydrostatik: Vorwarnung Filter verschmutzt ( BP1862 )
+233,5,700645,M205FC218 Hydrostatik: Warnung Pumpenmotor 1. Anzeige am Antriebsverstärker beachten. ( T1811 )
+233,6,700646,M206FC218 Hydrostatik: Regelung wird vorbereitet
+233,7,700647,"M207FC218 Hydrostatik: Pumpendruck ist ausserhalb der Toleranz, bitte warten"
+234,0,700648,"M208FC218 Hydrostatik: Öltemperatur ist ausserhalb der Toleranz, bitte warten"
+234,1,700649,"M209FC218 Hydrostatik: Öldruck ist ausserhalb der Toleranz, bitte warten"
+234,2,700650,M210FC218 Hydrostatik: USV Alarm
+234,3,700651,M211FC218 Hydrostatik: USV Batterie-Modus
+234,4,700652,M212FC218 Hydrostatik: USV Batterie wird geladen
+234,5,700653,M213
+234,6,700654,M214
+234,7,700655,M215
+235,0,700656,M216FC40 Abrichten ist aktiv
+235,1,700657,M217FC60 Vorwarnung Messteil
+235,2,700658,M218FB1434 Leerfahren ist aktiv
+235,3,700659,M219FB1434 Maschine ist leer
+235,4,700660,M220
+235,5,700661,M221
+235,6,700662,M222
+235,7,700663,M223
+236,0,700700,"A224FC37 X-Achse: Nicht auf Sicherheitsposition, C3-Achse Drehen nicht möglich"
+236,1,700701,"A225FC37 C4-Achse: Nicht auf Sicherheitsposition, C3-Achse Drehen nicht möglich"
+236,2,700702,A226FC39 B-Achse: Strom Istwert zu hoch
+236,3,700703,A227FC183 Öldrucksensor fehlerhaft. ( BP3512 )
+236,4,700704,A228FC183 Ölflusssensor fehlerhaft ( BF3511 )
+236,5,700705,A229FC39 Temperatursensor fehlerhaft ( BT5051 )
+236,6,700706,A230FC39 B-Achse: Soll-/Ist-Getriebestufe ist nicht identisch
+236,7,700707,A231FC39 B-Achse: Profilschleifkopf: Antriebsriemen nicht in Ordnung
+237,0,700708,A232FC39 B-Achse: Überlast erreicht
+237,1,700709,A233FC39 B-Achse: Schleifwerkzeugabdeckung nicht geschlossen ( B5002 )
+237,2,700710,A234FC39 B-Achse: Kühlkörper-Übertemperatur ( T5000 )
+237,3,700711,A235FC39 B-Achse: Vorwarnung Temperatur
+237,4,700712,A236FC222 Löschanlage: Löschen ist aktiv
+237,5,700713,A237FC222 Löschanlage ist nicht in Ordnung.
+237,6,700714,A238FC222 Brandschutzklappe ist nicht offen  ( B2700 MB2700 )
+237,7,700715,"A239FC222 Feuerlöschsensor meldet Feuer oder ist defekt, Taste Reset betätigen ( B2702 )"
+238,0,700716,"A240FC169 Achszuordnung nicht möglich, Achse ist momentan Kanal 2 zugeordnet, Taste Reset betätigen"
+238,1,700717,"A241FC169 Achszuordnung nicht möglich, Achse ist momentan Kanal 1 zugeordnet, Taste Reset betätigen"
+238,2,700718,A242FC222 Löschanlage: Stellung Kugelhahn Endlage nicht erreicht
+238,3,700719,A243FC222 Löschanlage: Kugelhahn geschlossen.
+238,4,700720,"A244FC222 Sprinkleranlage ist aktiv, Taste Reset betätigen"
+238,5,700721,"A245FC222 Überwachung der Verpuffungsklappe hat ausgelöst, Taste Reset betätigen"
+238,6,700722,"A246FC194/FC196 NC Schreibauftrag nicht i.O., Taste Reset, Taste Reset betätigen"
+238,7,700723,"A247FC195/FC197 NC Leseauftrag nicht i.O., Taste Reset, Taste Reset betätigen"
+239,0,700724,"A248FB1600/FB1601 NIO-Teil Stossüberwachung Z, Schleifschnecke und Werkstück überprüfen ( B2431 )"
+239,1,700725,"A249FB1600/FB1601 NIO-Teil Frequenzspektrum Z, Werkstück überprüfen ( B2431 )"
+239,2,700726,"A250FB1600/FB1601 NIO-Teil Stossüberwachung Y, Schleifschnecke und Werkstück überprüfen ( B2441 )"
+239,3,700727,"A251FB1600/FB1601 NIO-Teil Frequenzspektrum Y, Werkstück überprüfen ( B2441 )"
+239,4,700728,"A252FB1600/FB1601 NIO-Teil Stossüberwachung W1/C1, Schleifschnecke und Werkstück überprüfen ( B2451 )"
+239,5,700729,"A253FB1600/FB1601 NIO-Teil Frequenzspektrum W1/C1, Werkstück überprüfen ( B2451 )"
+239,6,700730,"A254FB1600/FB1601 NIO-Teil Stossüberwachung W2/C2, Schleifschnecke und Werkstück überprüfen ( B2461 )"
+239,7,700731,"A255FB1600/FB1601 NIO-Teil Frequenzspektrum W2/C2, Werkstück überprüfen ( B2461 )"
+240,0,700732,M224FB1504 Verbindung zu Leitsystem fehlgeschlagen
+240,1,700733,M225FB1504 Schnittstelle zu Leitsystem deaktiviert
+240,2,700734,M226FB1504 Bearbeitung des Werkstücks durch Leitsystem abgelehnt
+240,3,700735,M227FB1504 DMC konnte nicht gelesen werden
+240,4,700736,M228FB1354 Präzisionseinzentrieren: Rekalibrierung der Spindel-C1 ausführen
+240,5,700737,M229FB1354 Präzisionseinzentrieren: Rekalibrierung der Spindel-C2 ausführen
+240,6,700738,M230FB1354 Präzisionseinzentrieren: Kalibrierung der Spindel-C1 durchführen
+240,7,700739,M231FB1354 Präzisionseinzentrieren: Kalibrierung der Spindel-C2 durchführen
+241,0,700740,M232FC206 Beschickungstür: Lichtschranke hat während Türbewegung ausgelöst ( BR642 / BR643 )
+241,1,700741,M233
+241,2,700742,M234
+241,3,700743,M235
+241,4,700744,M236
+241,5,700745,M237
+241,6,700746,M238
+241,7,700747,M239
+242,0,700748,M240FC227 Schleifölanlage: Überschreitung der Wasser Zulauftemperatur
+242,1,700749,M241FC227 Schleifölanlage: Überschreitung der Schleiföl Zulauftemperatur
+242,2,700750,M242FC227 Schleifölanlage: Überschreitung der Spindelöl Zulauftemperatur
+242,3,700751,M243FC227 Schleifölanlage: Temperatur Kühlschmierstoff nicht in Ordnung
+242,4,700752,M244
+242,5,700753,M245
+242,6,700754,M246
+242,7,700755,M247
+243,0,700756,M248
+243,1,700757,M249
+243,2,700758,M250
+243,3,700759,M251
+243,4,700760,M252
+243,5,700761,M253
+243,6,700762,M254
+243,7,700763,M255
+244,0,700800,A256FC227 Schleifölanlage: Fehler
+244,1,700801,A257FC227 Schleifölanlage: Warnung
+244,2,700802,A258FC227 Schleifölanlage: Minimaller Füllstand Sauberöltank
+244,3,700803,A259FC227 Öldruckerhöhungsstation: Fehler Rückpumpstation
+244,4,700804,A260FC227 Öldruckerhöhungsstation: Eingangsventil nicht offen
+244,5,700805,A261FC227 Öldruckerhöhungsstation: Eingangsventil nicht geschlossen
+244,6,700806,A262FC227 Öldruckerhöhungsstation: Schaltschrank Temperatur nicht in Ordnung
+244,7,700807,A263FC227 Öldruckerhöhungsstation: Druck Eingangsventil nicht in Ordnung
+245,0,700808,A264FC211 WM Fehler: Aufgabe für Auftragsverwaltung nicht definiert
+245,1,700809,A265FC211 WM Fehler: Auftragnehmer für NC-Kanal 1 nicht zulässig
+245,2,700810,A266FC211 WM Fehler: Auftrag von NC-Kanal 1 nicht zulässig
+245,3,700811,A267FC211 WM Fehler: Anzahl Aufträge von NC-Kanal 1 zu gross
+245,4,700812,A268FC211 WM Fehler: Auftragnehmer für NC-Kanal 2 nicht zulässig
+245,5,700813,A269FC211 WM Fehler: Auftrag von NC-Kanal 2 nicht zulässig
+245,6,700814,A270FC211 WM Fehler: Anzahl Aufträge von NC-Kanal 2 zu gross
+245,7,700815,A271FC211 WM Fehler: Auftragnehmer für PLC nicht zulässig
+246,0,700816,A272FC211 WM Fehler: Auftrag von PLC nicht zulässig
+246,1,700817,A273FC211 WM Fehler: Anzahl Aufträge von PLC zu gross
+246,2,700818,A274FC211 WM Fehler: AEZ Messlücke: Zähnezahl und Sensorabstand prüfen
+246,3,700819,"A275FC211 WM Fehler: AEZ Drehzahl Einzentrieren ungleich Drehzahl Lernen, Override beachten"
+246,4,700820,A276FC211 WM Fehler: Regleroptimierung fehlgeschlagen
+246,5,700821,A277FC211 WM Fehler: Skript-Job wurde nicht richtig ausgeführt
+246,6,700822,"A278FC211 WM Fehler: AEZ-Index Fehler, (Drehgeber Werkstückantrieb prüfen)"
+246,7,700823,A279FC211 WM Fehler: Werkstück rutscht im Spannmittel
+247,0,700824,A280FC211 WM Fehler: Keine Fehlerbeschreibung vorhanden
+247,1,700825,A281FC211 WM Fehler: Funktion nicht implementiert
+247,2,700826,A282FC211 WM Fehler: Nicht behandelte Ausnahme
+247,3,700827,A283FC211 WM Fehler: Aufruftelegramm falsch
+247,4,700828,A284FC211 WM Fehler: Funktion in Betriebsart nicht zulässig
+247,5,700829,A285FC211 WM Fehler: Ohne Reglerfreigabe nicht ausführbar
+247,6,700830,A286FC211 WM Fehler: Interpolator ist schon beschäftigt
+247,7,700831,A287FC211 WM Fehler: Absolut Positionieren gekoppelt nicht zulässig
+248,0,700832,M256
+248,1,700833,M257
+248,2,700834,M258
+248,3,700835,M259
+248,4,700836,M260
+248,5,700837,M261
+248,6,700838,M262
+248,7,700839,M263
+249,0,700840,M264
+249,1,700841,M265
+249,2,700842,M266
+249,3,700843,M267
+249,4,700844,M268
+249,5,700845,M269
+249,6,700846,M270
+249,7,700847,M271
+250,0,700848,M272
+250,1,700849,M273
+250,2,700850,M274
+250,3,700851,M275
+250,4,700852,M276
+250,5,700853,M277
+250,6,700854,M278
+250,7,700855,M279
+251,0,700856,M280
+251,1,700857,M281
+251,2,700858,M282
+251,3,700859,M283
+251,4,700860,M284
+251,5,700861,M285
+251,6,700862,M286
+251,7,700863,M287
+252,0,700900,A288FC211 WM Fehler: Gekoppelt nicht ausführbar
+252,1,700901,A289FC211 WM Fehler: Flankenlinienkorrektur Anzahl Punkte ungültig
+252,2,700902,A290FC211 WM Fehler: Keine Koppelparameter geladen
+252,3,700903,A291FC211 WM Fehler: Mit aktiver Flankenlinienkorrektur nicht zulässig
+252,4,700904,A292FC211 WM Fehler: AEZ-Modul ist schon beschäftigt
+252,5,700905,A293FC211 WM Fehler: Option AEZ ist nicht vorhanden
+252,6,700906,A294FC211 WM Fehler: Auto. Einzentrieren ohne Lernen nicht möglich
+252,7,700907,A295FC211 WM Fehler: Reglerfreigabe bei Drehgeberfehler nicht zulässig
+253,0,700908,A296FC211 WM Fehler: Falsche Daten empfangen
+253,1,700909,A297FC211 WM Fehler: Override null
+253,2,700910,A298FC211 WM Fehler: Vorgegebene Geschwindigkeit zu gross
+253,3,700911,A299FC211 WM Fehler: Vorgegebene Geschwindigkeit zu klein
+253,4,700912,A300FC211 WM Fehler: AEZ Vorgabe Zähnezahl nicht zulässig
+253,5,700913,A301FC211 WM Fehler: H-Befehl Nummer nicht zulässig
+253,6,700914,A302FC211 WM Fehler: Funktion nicht korrekt ausgeführt
+253,7,700915,"A303FC211 WM Fehler: Kein AEZ-Sensorsignal: Sensorabstand prüfen, dreht die Achse?"
+254,0,700916,"A304FC211 WM Fehler: C1 Zulässige Regelabweichung überschritten, Taste Reset betätigen"
+254,1,700917,"A305FC211 WM Fehler: C1 Zulässiges Antriebsmoment überschritten, Taste Reset betätigen"
+254,2,700918,A306FC211 WM Fehler: C1-Drehgeber Amplitude zu klein
+254,3,700919,A307FC211 WM Fehler: C1-Drehgeber Frequenzüberschreitung
+254,4,700920,A308FC211 WM Fehler: C1-AEZ-Drehgeber Amplitude zu klein
+254,5,700921,A309FC211 WM Fehler: C1-AEZ-Drehgeber Frequenzüberschreitung
+254,6,700922,"A310FC211 WM Fehler: Hard- oder Software-Ausnahme aufgetreten, Taste Reset betätigen"
+254,7,700923,A311FC211 WM Fehler: B-Drehgeber Vorwarnung Amplitude schwach
+255,0,700924,"A312FC211 WM Fehler: B-Drehgeber Amplitude zu klein, Taste Reset betätigen"
+255,1,700925,"A313FC211 WM Fehler: B-Drehgeber Frequenzüberschreitung, Taste Reset betätigen"
+255,2,700926,"A314FC211 WM Fehler: Y-Drehgeber Amplitude zu klein, Taste Reset betätigen"
+255,3,700927,"A315FC211 WM Fehler: Y-Drehgeber Frequenzüberschreitung, Taste Reset betätigen"
+255,4,700928,"A316FC211 WM Fehler: Z-Drehgeber Amplitude zu klein, Taste Reset betätigen"
+255,5,700929,"A317FC211 WM Fehler: Z-Drehgeber Frequenzüberschreitung, Taste Reset betätigen"
+255,6,700930,A318FC211 WM Fehler: Y-Drehgeber Vorwarnung Amplitude schwach
+255,7,700931,A319FC211 WM Fehler: Z-Drehgeber Vorwarnung Amplitude schwach
+256,0,700932,M288
+256,1,700933,M289
+256,2,700934,M290
+256,3,700935,M291
+256,4,700936,M292
+256,5,700937,M293
+256,6,700938,M294
+256,7,700939,M295
+257,0,700940,M296
+257,1,700941,M297
+257,2,700942,M298
+257,3,700943,M299
+257,4,700944,M300
+257,5,700945,M301
+257,6,700946,M302
+257,7,700947,M303
+258,0,700948,M304
+258,1,700949,M305
+258,2,700950,M306
+258,3,700951,M307
+258,4,700952,M308
+258,5,700953,M309
+258,6,700954,M310
+258,7,700955,M311
+259,0,700956,M312
+259,1,700957,M313
+259,2,700958,M314
+259,3,700959,M315
+259,4,700960,M316
+259,5,700961,M317
+259,6,700962,M318
+259,7,700963,M319
+260,0,701000,"A320FC211 WM Fehler: C2 Zulässige Regelabweichung überschritten, Taste Reset betätigen"
+260,1,701001,"A321FC211 WM Fehler: C2 Zulässiges Antriebsmoment überschritten, Taste Reset betätigen"
+260,2,701002,A322FC211 WM Fehler: C2-Drehgeber Amplitude zu klein
+260,3,701003,A323FC211 WM Fehler: C2-Drehgeber Frequenzüberschreitung
+260,4,701004,A324FC211 WM Fehler: C2-AEZ-Drehgeber Amplitude zu klein
+260,5,701005,A325FC211 WM Fehler: C2-AEZ-Drehgeber Frequenzüberschreitung
+260,6,701006,A326FC211 WM Fehler: C1-Drehgeber Vorwarnung Amplitude schwach
+260,7,701007,A327FC211 WM Fehler: C2-Drehgeber Vorwarnung Amplitude schwach
+261,0,701008,"A328FC211 WM Fehler: C1 Max. zulässige Geschw. überschritten, Taste Reset betätigen"
+261,1,701009,"A329FC211 WM Fehler: C2 Max. zulässige Geschw. überschritten, Taste Reset betätigen"
+261,2,701010,A330FC211 WM Fehler: C1 Kommutieren wird wiederholt
+261,3,701011,A331FC211 WM Fehler: C2 Kommutieren wird wiederholt
+261,4,701012,A332FC211 WM Fehler: C1 Fehlfunktion Antriebsbus
+261,5,701013,A333FC211 WM Fehler: C2 Fehlfunktion Antriebsbus
+261,6,701014,A334FC211 WM Fehler: C1 Abbrechen der Bearbeitung wegen unzulässigen Ratterschwingungen
+261,7,701015,A335FC211 WM Fehler: C2 Abbrechen der Bearbeitung wegen unzulässigen Ratterschwingungen
+262,0,701016,A336FC211 WM Fehler: C1 Rattermassnahme im Schlichthub (Werkstück kann beschädigt sein).
+262,1,701017,A337FC211 WM Fehler: C2 Rattermassnahme im Schlichthub (Werkstück kann beschädigt sein).
+262,2,701018,A338
+262,3,701019,A339
+262,4,701020,"A340FC211 WM Fehler: C' Motor-Drehgeber Amplitude schwach, Taste Reset betätigen"
+262,5,701021,"A341FC211 WM Fehler: C' Motor-Drehgeber Amplitude zu klein, Taste Reset betätigen"
+262,6,701022,"A342FC211 WM Fehler: C' Motor-Drehgeber Frequenzüberschreitung, Taste Reset betätigen"
+262,7,701023,A343FC211 WM Fehler: Unzulässiges Betätigen des Messtasters.
+263,0,701024,A344FC211 WM Fehler: Empfangsfehler
+263,1,701025,A345FC211 WM Fehler: Sendefehler
+263,2,701026,A346FC211 WM Fehler: Infotyp nicht definiert
+263,3,701027,A347FC211 WM Fehler: Empfänger nicht zulässig
+263,4,701028,A348FC211 WM Fehler: Kein Auftrag für Quittung in Liste
+263,5,701029,A349FC211 WM Fehler: Echo fehlerhaft empfangen
+263,6,701030,"A350FC211 WM Fehler: Verbindungsunterbruch, Timeout"
+263,7,701031,"A351FC211 WM Fehler: Fehlernummer nicht definiert, Taste Reset betätigen"
+264,0,701032,M320
+264,1,701033,M321
+264,2,701034,M322
+264,3,701035,M323
+264,4,701036,M324
+264,5,701037,M325
+264,6,701038,M326
+264,7,701039,M327
+265,0,701040,M328
+265,1,701041,M329
+265,2,701042,M330
+265,3,701043,M331
+265,4,701044,M332
+265,5,701045,M333
+265,6,701046,M334
+265,7,701047,M335
+266,0,701048,M336
+266,1,701049,M337
+266,2,701050,M338
+266,3,701051,M339
+266,4,701052,M340
+266,5,701053,M341
+266,6,701054,M342
+266,7,701055,M343
+267,0,701056,M344
+267,1,701057,M345
+267,2,701058,M346
+267,3,701059,M347
+267,4,701060,M348
+267,5,701061,M349
+267,6,701062,M350
+267,7,701063,M351
+268,0,701100,A352FB1320 Wuchtsystem: Limit 2 erreicht
+268,1,701101,"A353FB1320 Wuchtsystem: Gewichte Neutralstellung nicht erreicht, Taste Reset betätigen"
+268,2,701102,"A354FB1320 Wuchtvorgang erfolglos abgebrochen, Taste Reset betätigen"
+268,3,701103,A355FB1320 Profibusslave 5 (BalanceSystems) nicht bereit oder fehlerhaft
+268,4,701104,A356FB1317 Die Spannhubkontrolle von Spannmittel 1 meldet einen Fehler! ( BP1711 MB1712 )
+268,5,701105,A357FB1317 Die Spannhubkontrolle von Spannmittel 2 meldet einen Fehler! ( BP1712 MB1715 )
+268,6,701106,A358FB1317 Das Werkstück auf Spannmittel 1 liegt nicht richtig auf oder die Spannhubkontrolle von Spannmittel 1 meldet einen Fehler! ( B1711 MB1712 )
+268,7,701107,A359FB1317 Das Werkstück auf Spannmittel 2 liegt nicht richtig auf oder die Spannhubkontrolle von Spannmittel 2 meldet einen Fehler! ( B1712 MB1715 )
+269,0,701108,A360FC228 Spritzschutz: Schutzschalter nicht in Ordnung ( F3601 )
+269,1,701109,A361FC228 Spritzschutz: Segment links nicht in definierter Position
+269,2,701110,A362FC228 Spritzschutz: Segment rechts nicht in definierter Position
+269,3,701111,A363FC228 Spritzschutz: Segment links nicht offen oder Endschalter defekt ( B3601 )
+269,4,701112,A364FC228 Spritzschutz: Segment links nicht geschlossen oder Endschalter defekt ( B3603 )
+269,5,701113,A365FC228 Spritzschutz: Segment rechts nicht offen oder Endschalter defekt ( B3611 )
+269,6,701114,A366FC228 Spritzschutz: Segment rechts nicht geschlossen oder Endschalter defekt ( B3613 )
+269,7,701115,A367FC228 Spritzschutz: Fehler Frequenzumrichter. Anzeige am Frequenzumrichter beachten ( T3601 )
+270,0,701116,A368FB1320 Wuchtsystem: Pickup nicht in Ordnung
+270,1,701117,A369FC228 Spritzschutz: Fehler Frequenzumrichter. Anzeige am Frequenzumrichter beachten ( T3611 )
+270,2,701118,A370FC228 Profibusslave 9 (Spritzschutz links) nicht bereit oder fehlerhaft
+270,3,701119,A371FC228 Profibusslave 10 (Spritzschutz rechts) nicht bereit oder fehlerhaft
+270,4,701120,"A372FB1600/FB1601 Spindeltest ZFTransfer Timeout, Abbruch durch Reishauer PLC"
+270,5,701121,"A373FB1600/FB1601 Spindeltest ZFTransfer Timeout, Abbruch durch VibroControl"
+270,6,701122,A374FC218 Hydrostatik: Motorschutzschalter Pumpenmotor 1 nicht in Ordnung ( F1811 )
+270,7,701123,A375FC218 Hydrostatik: Störung Frequenzumrichter. Anzeige am Frequenzumrichter beachten. ( T1811 )
+271,0,701124,A376FC218 Hydrostatik: Motorschutzschalter Pumpenmotor 2 nicht in Ordnung ( F1812 )
+271,1,701125,A377FC218 Hydrostatik: Sanftstarter Pumpenmotor 2 nicht in Ordnung ( Q1812 )
+271,2,701126,A378FC218 Hydrostatik: Schutzschalter Versorgung Kühlgerät nicht in Ordnung ( F1813 )
+271,3,701127,A379FC218 Hydrostatik: Kühlgerät nicht bereit ( Q1813 )
+271,4,701128,A380FC218 Hydrostatik: Pneumatik Aggregat nicht in Ordnung ( BP1841 )
+271,5,701129,A381FC218 Hydrostatik: Druck Sperrluft am B-Messsystem ist zu tief ( BP1843 )
+271,6,701130,A382FC227 Schleifölanlage: Ausgeschalten oder Verbindungsfehler ( X3521A )
+271,7,701131,A383FC227 Füllstand Öl in Ölaufangwanne Maschine ist zu hoch ( BL3515 )
+272,0,701132,M352
+272,1,701133,M353
+272,2,701134,M354
+272,3,701135,M355
+272,4,701136,M356
+272,5,701137,M357
+272,6,701138,M358
+272,7,701139,M359
+273,0,701140,M360
+273,1,701141,M361
+273,2,701142,M362
+273,3,701143,M363
+273,4,701144,M364
+273,5,701145,M365
+273,6,701146,M366
+273,7,701147,M367
+274,0,701148,M368
+274,1,701149,M369
+274,2,701150,M370
+274,3,701151,M371
+274,4,701152,M372
+274,5,701153,M373
+274,6,701154,M374
+274,7,701155,M375
+275,0,701156,M376
+275,1,701157,M377
+275,2,701158,M378
+275,3,701159,M379
+275,4,701160,M380
+275,5,701161,M381
+275,6,701162,M382
+275,7,701163,M383
+276,0,701200,A384FC214 Zentralschmierung: Führung X- und Z-Achse nicht in Ordnung ( BP1431 )
+276,1,701201,A385FC214 Zentralschmierung: Spindel X- und Z-Achse nicht in Ordnung ( BP1432 )
+276,2,701202,A386FC214 Zentralschmierung: Führung Y-Achse nicht in Ordnung ( BP1433 )
+276,3,701203,A387FC214 Zentralschmierung: Spindel Y-Achse nicht in Ordnung ( BP1434 )
+276,4,701204,A388FC214 Zentralschmierung: Führung Reitstock W1 nicht in Ordnung ( BP1435 )
+276,5,701205,A389FC214 Zentralschmierung: Führung Reitstock W2 nicht in Ordnung ( BP1436 )
+276,6,701206,A390FC214 Zentralschmierung: Druck zu hoch ( BP1411 )
+276,7,701207,A391FC227 Vorwarnung Füllstand Schleiföl Maschinenbett ( BL3506 )
+277,0,701208,A392FC214 Zentralschmierung: Druck nicht gesunken ( BP1411 )
+277,1,701209,A393FC199 GUD-Variable nicht erfolgreich gelesen
+277,2,701210,A394FC181 Profibusslave 12 (Energiemessgerät) nicht bereit oder fehlerhaft
+277,3,701211,A395FC190 RFID Memory Map Revision wird nicht unterstützt
+277,4,701212,A396FC190 Alarm Standzeit Schleifwerkzeug
+277,5,701213,A397FC214 Zentralschmierung: Schmiermittelzufuhr unterbrochen
+277,6,701214,A398FC190 Alarm Standzeit Abrichtwerkzeug
+277,7,701215,"A399FC231 Achsenspeisung: Antriebe nicht im zyklischen Betrieb, Schutztüren können nicht geöffnet werden"
+278,0,701216,A400FC227 Filtra-Sys: Schleifölstand im Rückpumptank hoch ( SLI820.1 )
+278,1,701217,A401FC227 Filtra-Sys: Schleifölstand im Auslauf hoch ( SLI820.6 )
+278,2,701218,A402FC227 Profibusslave 25 (FiltraSystem) nicht bereit oder fehlerhaft
+278,3,701219,A403FC227 Filtra-Sys: Res
+278,4,701220,A404FC227 Filtra-Sys: Res
+278,5,701221,A405FC227 Filtra-Sys: Speisung 24V ist nicht in Ordnung ( QF20056 )
+278,6,701222,A406FC227 Filtra-Sys: Speisung Not-Halt ist nicht in Ordnung ( CB20063 KAQ20065 )
+278,7,701223,"A407FC227 Filtra-Sys: Handbetrieb ist angewählt, Automatikbetrieb nicht möglich"
+279,0,701224,A408FC227 Filtra-Sys: Frequenzumformer nicht in Ordnung ( VFD20008 )
+279,1,701225,A409FC227 Filtra-Sys: Öldruck nicht in Ordnung ( SPI822.0 )
+279,2,701226,A410FC227 Filtra-Sys: Res
+279,3,701227,A411FC227 Filtra-Sys: Res
+279,4,701228,A412FC227 Filtra-Sys: Res
+279,5,701229,A413FC227 Filtra-Sys: Rücklaufpumpe Ölreservoir tief ( SLI820.3 )
+279,6,701230,A414FC227 Filtra-Sys: Transfertank nicht bereit ( KMQ18.2 )
+279,7,701231,A415FC227 Filtra-Sys: Res
+280,0,701232,M384
+280,1,701233,M385
+280,2,701234,M386
+280,3,701235,M387
+280,4,701236,M388
+280,5,701237,M389
+280,6,701238,M390
+280,7,701239,M391
+281,0,701240,M392
+281,1,701241,M393
+281,2,701242,M394
+281,3,701243,M395
+281,4,701244,M396
+281,5,701245,M397
+281,6,701246,M398
+281,7,701247,M399
+282,0,701248,M400
+282,1,701249,M401
+282,2,701250,M402
+282,3,701251,M403
+282,4,701252,M404
+282,5,701253,M405
+282,6,701254,M406
+282,7,701255,M407
+283,0,701256,M408
+283,1,701257,M409
+283,2,701258,M410
+283,3,701259,M411
+283,4,701260,M412
+283,5,701261,M413
+283,6,701262,M414
+283,7,701263,M415
+284,0,701300,A416FC211 WM Fehler: Nullindex beim Referenzieren nicht lesbar
+284,1,701301,A417FC211 WM Auswertung Markierung Referenzzahn fehlerhaft
+284,2,701302,A418FC211 WM Fehler: Maschinen Konfigurationsfile nicht in Ordnung
+284,3,701303,A419FC211 WM Fehler: Werkstückachsen Konfigurationsfile nicht in Ordnung
+284,4,701304,"A420FC211 WM Fehler: Hochlauf der Endstufe fehlerhaft, Power Off/On ausführen"
+284,5,701305,A421FC211 WM Fehler: Analoges Messtastersignal Messbereich überschritten.
+284,6,701306,A422FC211 WM Fehler: Analoges Messtastersignal zu klein.
+284,7,701307,A423FC211 WM Fehler: Drehgeberauswertung fehlerhaft
+285,0,701308,A424FC211 WM Fehler: Anzahl Busfehler überschritten
+285,1,701309,A425FC211 WM Fehler: Lüfter Mainboard ausgefallen
+285,2,701310,A426FC211
+285,3,701311,A427FC211 WM Fehler: Lüfter Endstufe ausgefallen
+285,4,701312,A428FC211
+285,5,701313,A429FC211 WM Kommunikation zur Sensorbox fehlerhaft
+285,6,701314,A430FC211 WM C1Res.30
+285,7,701315,A431FC211 WM C2Res.30
+286,0,701316,A432FC211 WM C1Res.40
+286,1,701317,A433FC211 WM C2Res.40
+286,2,701318,A434FC211 WM Systemfehler Code 2 Res.
+286,3,701319,A435FC211 WM Reserve
+286,4,701320,A436FC211 WM Reserve
+286,5,701321,A437FC211 WM Reserve
+286,6,701322,A438FC211 WM Reserve
+286,7,701323,A439FC211 Profibusslave 6 (Wälzmodul) nicht bereit oder fehlerhaft
+287,0,701324,A440FC232 C1-Achse: Verstärker nicht in Ordnung
+287,1,701325,A441FC232 C2-Achse: Verstärker nicht in Ordnung
+287,2,701326,A442FC232 C1-Achse: Summenstrom nicht in Ordnung
+287,3,701327,A443FC232 C2-Achse: Summenstrom nicht in Ordnung
+287,4,701328,A444FC232 C1-Achse: Impulsfreigabe nicht in Ordnung
+287,5,701329,A445FC232 C2-Achse: Impulsfreigabe nicht in Ordnung
+287,6,701330,A446FC232 C1-Achse: I2t Alarm Grenzstrom
+287,7,701331,A447FC232 C2-Achse: I2t Alarm Grenzstrom
+288,0,701332,M416
+288,1,701333,M417
+288,2,701334,M418
+288,3,701335,M419
+288,4,701336,M420
+288,5,701337,M421
+288,6,701338,M422
+288,7,701339,M423
+289,0,701340,M424
+289,1,701341,M425
+289,2,701342,M426
+289,3,701343,M427
+289,4,701344,M428
+289,5,701345,M429
+289,6,701346,M430
+289,7,701347,M431
+290,0,701348,M432
+290,1,701349,M433
+290,2,701350,M434
+290,3,701351,M435
+290,4,701352,M436
+290,5,701353,M437
+290,6,701354,M438
+290,7,701355,M439
+291,0,701356,M440
+291,1,701357,M441
+291,2,701358,M442
+291,3,701359,M443
+291,4,701360,M444
+291,5,701361,M445
+291,6,701362,M446
+291,7,701363,M447
+292,0,701400,A448FC248 Messvorrichtung: Fahren bei offener Schutztür nicht möglich
+292,1,701401,A449
+292,2,701402,A450FC248 Messvorrichtung: In nicht definierter Position
+292,3,701403,A451FC248 Messvorrichtung: Messposition nicht erreicht oder Endschalter defekt ( B2901 Y2901 )
+292,4,701404,A452FC248 Messvorrichtung: Parkposition nicht erreicht oder Endschalter defekt ( B2902 Y2902 )
+292,5,701405,A453FC248 Messvorrichtung: X-Achse nicht auf Zustellposition
+292,6,701406,A454FC248 Messvorrichtung: Y-Achse nicht auf Zustellposition
+292,7,701407,A455FC248 Messvorrichtung: Positionsfehler C3-Achse
+293,0,701408,A456FC1203 Speisung 24V: Nicht in Ordnung ( F310 Out1 )
+293,1,701409,A457FC1203 Speisung 24V: Nicht in Ordnung ( F310 Out2 )
+293,2,701410,A458FC1203 Speisung 24V: Nicht in Ordnung ( F310 Out3 )
+293,3,701411,A459FC1203 Speisung 24V: Nicht in Ordnung ( F310 Out4 )
+293,4,701412,A460FC1203 Speisung 24V: Nicht in Ordnung ( F311 Out1 )
+293,5,701413,A461FC1203 Speisung 24V: Nicht in Ordnung ( F311 Out2 )
+293,6,701414,A462FC1203 Speisung 24V: Nicht in Ordnung ( F311 Out3 )
+293,7,701415,A463FC1203 Speisung 24V: Nicht in Ordnung ( F311 Out4 )
+294,0,701416,A464FC1203 Speisung 24V: Nicht in Ordnung ( F312 Out1 )
+294,1,701417,A465FC1203 Speisung 24V: Nicht in Ordnung ( F312 Out2 )
+294,2,701418,A466FC1203 Speisung 24V: Nicht in Ordnung ( F312 Out3 )
+294,3,701419,A467FC1203 Speisung 24V: Nicht in Ordnung ( F312 Out4 )
+294,4,701420,A468FC1203 Speisung 24V: Nicht in Ordnung ( F314 Out1 )
+294,5,701421,A469FC1203 Speisung 24V: Nicht in Ordnung ( F314 Out2 )
+294,6,701422,A470FC1203 Speisung 24V: Nicht in Ordnung ( F314 Out3 )
+294,7,701423,A471FC1203 Speisung 24V: Nicht in Ordnung ( F314 Out4 )
+295,0,701424,A472FC190 Alarm Zyklenzähler Spannmittel 1
+295,1,701425,A473FC190 Alarm Zyklenzähler Spannmittel 2
+295,2,701426,A474FC222 Feueralarm
+295,3,701427,A475FB1317 Spannmittel C1: Alarm Spanndruck zu hoch ( BP1701 )
+295,4,701428,A476FB1317 Spannmittel C1: Alarm Spanndruck zu tief ( BP1701 )
+295,5,701429,A477FC1602 Temperaturkompensation: Diagnosefehler
+295,6,701430,A478FC206 Beschickungstür: Schliessen nicht möglich. Ausrichtvorrichtung ist nicht auf Ablageposition.
+295,7,701431,A479FC222 Löschanlage ausser Betrieb
+296,0,701432,M448
+296,1,701433,M449
+296,2,701434,M450
+296,3,701435,M451
+296,4,701436,M452
+296,5,701437,M453
+296,6,701438,M454
+296,7,701439,M455
+297,0,701440,M456
+297,1,701441,M457
+297,2,701442,M458
+297,3,701443,M459
+297,4,701444,M460
+297,5,701445,M461
+297,6,701446,M462
+297,7,701447,M463
+298,0,701448,M464
+298,1,701449,M465
+298,2,701450,M466
+298,3,701451,M467
+298,4,701452,M468
+298,5,701453,M469
+298,6,701454,M470
+298,7,701455,M471
+299,0,701456,M472
+299,1,701457,M473
+299,2,701458,M474
+299,3,701459,M475
+299,4,701460,M476
+299,5,701461,M477
+299,6,701462,M478
+299,7,701463,M479
+300,0,701500,A480FC1140 Öldruckerhöhungsstation: Reserve
+300,1,701501,A481FC1140 Öldruckerhöhungsstation: Füllstand Schleiföl im Rückpumptank hoch ( SLI820.6 )
+300,2,701502,A482FC1140 Öldruckerhöhungsstation: Ölauffangbecken Füllstand Öl zu hoch ( SLI821.1 )
+300,3,701503,A483FC1140 Öldruckerhöhungsstation: Eingangsventil Stellung nicht in Ordnung ( I822.4 I822.5 )
+300,4,701504,A484FC1140 Öldruckerhöhungsstation: Eingangsventil Stellung nicht in Ordnung ( I823.0 I823.1 )
+300,5,701505,A485FC1140 Öldruckerhöhungsstation: Speisung 24V nicht in Ordnung ( I820.0 I823.7 )
+300,6,701506,A486FC1140 Öldruckerhöhungsstation: Speisung Not-Halt ist nicht in Ordnung ( I820.7 )
+300,7,701507,A487FC1140 Öldruckerhöhungsstation: Ausgangsventil Stellung nicht in Ordnung ( I823.2 I823.3 )
+301,0,701508,A488FC1140 Öldruckerhöhungsstation: Fehler Frequenzumrichter Hochdruckpumpe. Anzeige am Frequenzumrichter beachten
+301,1,701509,A489FC1140 Öldruckerhöhungsstation: Öldruck nicht in Ordnung ( SPI822.0 )
+301,2,701510,A490FC1140 Öldruckerhöhungsstation: Fehler Frequenzumrichter Rücklaufpumpe. Anzeige am Frequenzumrichter beachten
+301,3,701511,A491FC1140 Öldruckerhöhungsstation: Eingangsventile nicht geschlossen. Handabsperrventil sofort schliessen!
+301,4,701512,A492FC1140 Öldruckerhöhungsstation: Motorschutzschalter Pumpen nicht in Ordnung ( I821.5 I821.6 I821.7 )
+301,5,701513,A493FC1140 Öldruckerhöhungsstation: Rücklaufpumpe Ölreservoir tief ( SLI820.3 )
+301,6,701514,A494FC1140 Öldruckerhöhungsstation: Transfertank nicht bereit ( I823.6 )
+301,7,701515,A495FC1140 Öldruckerhöhungsstation: Schaltschrank Kühlgerät oder Schutzschalter nicht in Ordnung ( I822.1 )
+302,0,701516,A496FC1140 Öldruckerhöhungsstation: Ausgangsventil arbeitet nicht korrekt  ( I823.2 I823.3 Q822.4 )
+302,1,701517,A497FC1140 Öldruckerhöhungsstation: Rückschlagventil arbeitet nicht korrekt
+302,2,701518,A498FC1140 Öldruckerhöhungsstation: Rückspülfilter Druck zu hoch
+302,3,701519,A499FC1140 Öldruckerhöhungsstation: Rückspülfilter Position nicht erreicht
+302,4,701520,A500FC1140 Öldruckerhöhungsstation: Eingangsventil 1 Stellung offen nicht erreicht ( I822.4 )
+302,5,701521,A501FC1140 Öldruckerhöhungsstation: Eingangsventil 1 Stellung geschlossen nicht erreicht ( I822.5 )
+302,6,701522,A502FC1140 Öldruckerhöhungsstation: Eingangsventil 2 Stellung offen nicht erreicht ( I823.0 )
+302,7,701523,A503FC1140 Öldruckerhöhungsstation: Eingangsventil 2 Stellung geschlossen nicht erreicht ( I823.1 )
+303,0,701524,A504FC1140 Öldruckerhöhungsstation: Ausgangsventil 3 Stellung offen nicht erreicht ( I823.2 )
+303,1,701525,A505FC1140 Öldruckerhöhungsstation: Ausgangsventil 3 Stellung geschlossen nicht erreicht ( I823.3 )
+303,2,701526,A506FC1140 Öldruckerhöhungsstation: Ausgangsventil 3 und Rückschlagventil arbeiten nicht korrekt. Alle Ausschaltventile schliessen.
+303,3,701527,A507FC1140 Fehler Transfer Tank Heartbeatsignal
+303,4,701528,A508FB1320 Auswuchtgerät: Startbefehl nicht in Ordnung
+303,5,701529,A509FB1317 Spannmittel C2: Alarm Spanndruck zu hoch ( BP1702 )
+303,6,701530,A510FB1317 Spannmittel C2: Alarm Spanndruck zu tief ( BP1702 )
+303,7,701531,A511FC1140 Öldrucksensor fehlerhaft. ( IW824 )
+304,0,701532,M480
+304,1,701533,M481
+304,2,701534,M482
+304,3,701535,M483
+304,4,701536,M484
+304,5,701537,M485
+304,6,701538,M486
+304,7,701539,M487
+305,0,701540,M488
+305,1,701541,M489
+305,2,701542,M490
+305,3,701543,M491
+305,4,701544,M492
+305,5,701545,M493
+305,6,701546,M494
+305,7,701547,M495
+306,0,701548,M496
+306,1,701549,M497
+306,2,701550,M498
+306,3,701551,M499
+306,4,701552,M500
+306,5,701553,M501
+306,6,701554,M502
+306,7,701555,M503
+307,0,701556,M504
+307,1,701557,M505
+307,2,701558,M506
+307,3,701559,M507
+307,4,701560,M508
+307,5,701561,M509
+307,6,701562,M510
+307,7,701563,M511
+308,0,701600,A512FB500 Fehler bei Aufruf des Phasenbausteins. Eingabedaten prüfen
+308,1,701601,A513FC227 Schleifölanlage: Bettspülung Druck zu tief ( BP3522 )
+308,2,701602,A514FB1320 Wuchtgerät: Körperschallsensor fehlerhaft
+308,3,701603,A515FB1320 Wuchtgerät: Verbindung zu Wuchtkopf konnte nicht getrennt werden
+308,4,701604,A516FC227 Schleifölanlage: Durchfluss Maschinenbettkühlung ist zu tief ( BF3523 )
+308,5,701605,A517FC227 Schleifölanlage: Durchfluss Maschinenbettkühlung ist zu hoch ( BF3523 )
+308,6,701606,A518FB1320 Auswuchtgerät: Maximale Drehzahl überschritten
+308,7,701607,A519FC206 Pneumatik: Wartungsluke hinter Pneumatikpanel nicht in Grundposition ( A651 )
+309,0,701608,A520FB1602 Prozessüberwachung: Sofort Halt angefordert
+309,1,701609,A521FB1602 Prozessüberwachung: Fehler Verbindungsstatus
+309,2,701610,A522FB1602 Prozessüberwachung: Lebenszeichenausfall
+309,3,701611,A523FB500 Störung Frequenzumrichter Schleifscheibenreinigung
+309,4,701612,A524FC218 Hydrostatik: Druck Sperrluft am B-Messsystem ist zu hoch ( BP1843 )
+309,5,701613,A525FC218 Hydrostatik: Druck im Gasdruckspeicher ist zu tief ( BP1851 )
+309,6,701614,"A526FB1502 Teileverfolgung: Leseauftrag an NC nicht in Ordnung, Taste Reset betätigen"
+309,7,701615,"A527FB1502 Teileverfolgung: Schreibauftrag an NC nicht in Ordnung, Taste Reset betätigen"
+310,0,701616,A528FB1317 Spannmittel C1: Spanndrucksensor fehlerhaft ( BP1701 )
+310,1,701617,A529FB1317 Spannmittel C2: Spanndrucksensor fehlerhaft ( BP1702 )
+310,2,701618,A530FC218 Hydrostatik: Druck im Gasdruckspeicher ist zu hoch ( BP1851 )
+310,3,701619,A531FC218 Hydrostatik: Pumpendruck ist zu tief ( BP1852 )
+310,4,701620,A532FC218 Hydrostatik: Pumpendruck ist zu hoch ( BP1852 )
+310,5,701621,A533FC218 Hydrostatik: Öltemperatur ist zu tief ( BT1853 )
+310,6,701622,A534FC218 Hydrostatik: Öltemperatur ist zu hoch ( BT1853 )
+310,7,701623,A535FC218 Hydrostatik: Druckfilter Kühlkreis verschmutzt ( BP1854 )
+311,0,701624,A536FC218 Hydrostatik: Druckfilter Systemdruck verschmutzt ( BP1855 )
+311,1,701625,A537FC218 Hydrostatik: Abluftfilter verschmutzt ( BP1856 )
+311,2,701626,A538FC218 Hydrostatik: Füllstand Öl nicht in Ordnung ( BL1857 )
+311,3,701627,A539FC218 Hydrostatik: Strömung Spindelkühlung nicht in Ordnung ( BF1858 )
+311,4,701628,A540FC218 Hydrostatik: Druck Pneumatik am Schleifkopf ist zu tief ( BP1861 )
+311,5,701629,A541FC218 Hydrostatik: Druck Pneumatik am Schleifkopf ist zu hoch ( BP1861 )
+311,6,701630,A542FC218 Hydrostatik: Filter verschmutzt ( BP1862 )
+311,7,701631,A543FC218 Hydrostatik: Öldruck nicht in Ordnung ( BP1863 )
+312,0,701632,M512
+312,1,701633,M513
+312,2,701634,M514
+312,3,701635,M515
+312,4,701636,M516
+312,5,701637,M517
+312,6,701638,M518
+312,7,701639,M519
+313,0,701640,M520
+313,1,701641,M521
+313,2,701642,M522
+313,3,701643,M523
+313,4,701644,M524
+313,5,701645,M525
+313,6,701646,M526
+313,7,701647,M527
+314,0,701648,M528
+314,1,701649,M529
+314,2,701650,M530
+314,3,701651,M531
+314,4,701652,M532
+314,5,701653,M533
+314,6,701654,M534
+314,7,701655,M535
+315,0,701656,M536
+315,1,701657,M537
+315,2,701658,M538
+315,3,701659,M539
+315,4,701660,M540
+315,5,701661,M541
+315,6,701662,M542
+315,7,701663,M543
+316,0,701700,A544FB533 Sperrluft: Abrichtgerät und C4-Achse nicht in Ordnung ( BF9061 )
+316,1,701701,A545FB533 Sperrluft: C1- und C2-Spindel nicht in Ordnung  ( BF5261 )
+316,2,701702,A546FB533 Sperrluft: B-Achse Sicherheitsanschluss nicht in Ordnung ( BF5061 )
+316,3,701703,A547FB533 Sperrluft: B-Achse Messsystem ERA2 Gegenlager nicht in Ordnung ( BF5062 )
+316,4,701704,A548FB533 Sperrluft: B-Achse Wuchtkopf nicht in Ordnung ( BF5063 )
+316,5,701705,A549FB533 Sperrluft: B-Achse Messsystem ERA1 nicht in Ordnung ( BF5064 )
+316,6,701706,A550FB533 Sperrluft: B-Achse Messsystem ERM nicht in Ordnung ( BF5065 )
+316,7,701707,A551FB533 Sperrluft: B-Achse Motor Gegendruck nicht in Ordnung ( BF5066 )
+317,0,701708,A552FB535 Öl-Luft Schmierung: Schmierdruck Lager 1 nicht in Ordnung ( BP1451 )
+317,1,701709,A553FB535 Öl-Luft Schmierung: Schmierdruck Lager 2 nicht in Ordnung ( BP1452 )
+317,2,701710,A554FB535 Öl-Luft Schmierung: Schmierdruck Lager 3 nicht in Ordnung ( BP1453 )
+317,3,701711,A555FB535 Öl-Luft Schmierung: Schmierdruck Lager 4 nicht in Ordnung ( BP1454 )
+317,4,701712,A556FB535 Öl-Luft Schmierung: Schlierensensor Lager 1 nicht in Ordnung ( BF1455 )
+317,5,701713,A557FB535 Öl-Luft Schmierung: Schlierensensor Lager 2 nicht in Ordnung ( BF1456 )
+317,6,701714,A558FB535 Öl-Luft Schmierung: Schlierensensor Lager 3 nicht in Ordnung ( BF1457 )
+317,7,701715,A559FB535 Öl-Luft Schmierung: Schlierensensor Lager 4 nicht in Ordnung ( BF1458 )
+318,0,701716,A560FB535 Öl-Luft Schmierung: Speisung nicht in Ordnung ( F1402 )
+318,1,701717,A561FB535 Öl-Luft Schmierung: Ölbehälter leer ( BL1402 )
+318,2,701718,A562FB535 Öl-Luft Schmierung: Filter verschmutzt ( BP1404 )
+318,3,701719,A563FB535 Öl-Luft Schmierung: Relaisfunktionstest nicht in Ordnung ( Q1402 )
+318,4,701720,A564FB535 Öl-Luft Schmierung: Schmierkreis nicht in Ordnung ( BP1412 )
+318,5,701721,A565FB535 Öl-Luft Schmierung: Schmierkreis Druck zu hoch ( BP1412 )
+318,6,701722,A566FB535 Öl-Luft Schmierung: Durchfluss Schmierluft nicht in Ordnung ( BF1316 )
+318,7,701723,A567FB535 Öl-Luft Schmierung: Luftdruck nicht in Ordnung ( BP1313 )
+319,0,701724,A568FB539 B-Achse: Temperatur im Spindelgehäuse zu hoch ( BT5051 )
+319,1,701725,A569FB539 B-Achse: Temperatur im Spindelgehäuse zu hoch ( BT5052 )
+319,2,701726,A570FB539 B-Achse: Temperatur im Spindelgehäuse zu hoch ( BT5053 )
+319,3,701727,A571FB539 B-Achse: Temperatur im Spindelgehäuse zu hoch ( BT5054 )
+319,4,701728,A572FB536 B-Achse: Spannelement Klemmdruck nicht in Ordnung ( BP5023 )
+319,5,701729,A573FB536 B-Achse: Spannelement Klemmdruck zu hoch ( BP5023 )
+319,6,701730,A574
+319,7,701731,A575
+320,0,701732,M544FB536 B-Achse: Klemmung Loslagerschitten nicht gespannt ( BP5023 )
+320,1,701733,M545FB539 B-Achse: Vorwarnung Temperatur im Spindelgehäuse zu hoch ( BT5051 )
+320,2,701734,M546FB539 B-Achse: Vorwarnung Temperatur im Spindelgehäuse zu hoch ( BT5052 )
+320,3,701735,M547FB539 B-Achse: Vorwarnung Temperatur im Spindelgehäuse zu hoch ( BT5053 )
+320,4,701736,M548FB539 B-Achse: Vorwarnung Temperatur im Spindelgehäuse zu hoch ( BT5054 )
+320,5,701737,M549FB536 B-Achse: Klemmelement Loslagerschlitten nicht zusammengefahren ( B5002.1 )
+320,6,701738,M550FB535 Öl-Luft Schmierung: Vorwarnung Ölbehälter leer ( BL1402 )
+320,7,701739,M551
+321,0,701740,M552
+321,1,701741,M553
+321,2,701742,M554
+321,3,701743,M555
+321,4,701744,M556
+321,5,701745,M557
+321,6,701746,M558
+321,7,701747,M559
+322,0,701748,M560
+322,1,701749,M561
+322,2,701750,M562
+322,3,701751,M563
+322,4,701752,M564
+322,5,701753,M565
+322,6,701754,M566
+322,7,701755,M567
+323,0,701756,M568
+323,1,701757,M569
+323,2,701758,M570
+323,3,701759,M571
+323,4,701760,M572
+323,5,701761,M573
+323,6,701762,M574
+323,7,701763,M575
+324,0,701800,A576FC206 Beschickungstür: Speisung SIDOOR nicht in Ordnung ( F641 )
+324,1,701801,A577FC206 Beschickungstür: SIDOOR Diskrepanz Fehler am Funktionsblock AND0 ( T613 )
+324,2,701802,A578FC206 Beschickungstür: Störung automatischer Türantrieb ( T613 )
+324,3,701803,A579FC206 Beschickungstür: Lichtschranke hat während Türbewegung ausgelöst ( BR642 / BR643 )
+324,4,701804,A580FC206 Tray Cart Load nicht ok
+324,5,701805,A581FC222 Brandschutzklappe ist nicht geschlossen  ( B2700 MB2700 )
+324,6,701806,A582
+324,7,701807,A583FC60 Schnittstelle MMI - PLC ist ungültig (Der Hash stimmt nicht überein)
+325,0,701808,A584FC212 Stangenschalter 'Zyklus Start' Überwachungszeit überschritten
+325,1,701809,A585FC227 Schleifscheibenreinigung: Druck zu hoch
+325,2,701810,A586FC227 Schleifscheibenreinigung: Druck zu niedrig
+325,3,701811,A587FC1173 Produktionsstopp: Messteil war nicht in Ordnung
+325,4,701812,A588
+325,5,701813,A589
+325,6,701814,A590
+325,7,701815,A591
+326,0,701816,A592FB1602 Prozessüberwachung: Fehler Limit für X-Zustellung überschritten
+326,1,701817,A593FB1602 Prozessüberwachung: Fehler Limit ACC Sensor überschritten
+326,2,701818,A594FB1602 Prozessüberwachung: Fehler ARGUS Messgerät Neustart nicht erfolgt
+326,3,701819,"A595FB1602 Prozessüberwachung: Fehler APM Schleifen lernen, bitte Vorgang wiederholen"
+326,4,701820,A596
+326,5,701821,A597
+326,6,701822,A598
+326,7,701823,A599
+327,0,701824,A600FB1328 Präzisionseinzentrieren: Parkposition nicht erreicht oder Endschalter defekt ( B2851 )
+327,1,701825,A601FB1328 Präzisionseinzentrieren: Messposition nicht erreicht oder Endschalter defekt ( B2852 )
+327,2,701826,A602FB1328 Einzentriersensor: Temperatursensor fehlerhaft ( BT2854 )
+327,3,701827,A603
+327,4,701828,A604
+327,5,701829,A605
+327,6,701830,A606
+327,7,701831,A607
+328,0,701832,M576
+328,1,701833,M577
+328,2,701834,M578
+328,3,701835,M579
+328,4,701836,M580
+328,5,701837,M581
+328,6,701838,M582
+328,7,701839,M583FC60 Schnittstelle MMI - PLC ist ungültig (Der Hash stimmt nicht überein)
+329,0,701840,M584
+329,1,701841,M585
+329,2,701842,M586
+329,3,701843,M587
+329,4,701844,M588
+329,5,701845,M589
+329,6,701846,M590
+329,7,701847,M591
+330,0,701848,M592
+330,1,701849,M593
+330,2,701850,M594
+330,3,701851,M595
+330,4,701852,M596
+330,5,701853,M597
+330,6,701854,M598
+330,7,701855,M599
+331,0,701856,M600
+331,1,701857,M601
+331,2,701858,M602
+331,3,701859,M603
+331,4,701860,M604
+331,5,701861,M605
+331,6,701862,M606
+331,7,701863,M607
+332,0,701900,A608FB1434 Lader: Timeout Quittierung manuell entnommenes Teil
+332,1,701901,A609
+332,2,701902,A610
+332,3,701903,A611
+332,4,701904,A612
+332,5,701905,A613
+332,6,701906,A614
+332,7,701907,A615
+333,0,701908,A616
+333,1,701909,A617
+333,2,701910,A618
+333,3,701911,A619
+333,4,701912,A620
+333,5,701913,A621
+333,6,701914,A622
+333,7,701915,A623
+334,0,701916,A624
+334,1,701917,A625
+334,2,701918,A626
+334,3,701919,A627
+334,4,701920,A628
+334,5,701921,A629
+334,6,701922,A630
+334,7,701923,A631
+335,0,701924,A632
+335,1,701925,A633
+335,2,701926,A634
+335,3,701927,A635
+335,4,701928,A636
+335,5,701929,A637
+335,6,701930,A638
+335,7,701931,A639
+336,0,701932,M608
+336,1,701933,M609
+336,2,701934,M610
+336,3,701935,M611
+336,4,701936,M612
+336,5,701937,M613
+336,6,701938,M614
+336,7,701939,M615
+337,0,701940,M616
+337,1,701941,M617
+337,2,701942,M618
+337,3,701943,M619
+337,4,701944,M620
+337,5,701945,M621
+337,6,701946,M622
+337,7,701947,M623
+338,0,701948,M624
+338,1,701949,M625
+338,2,701950,M626
+338,3,701951,M627
+338,4,701952,M628
+338,5,701953,M629
+338,6,701954,M630
+338,7,701955,M631
+339,0,701956,M632
+339,1,701957,M633
+339,2,701958,M634
+339,3,701959,M635
+339,4,701960,M636
+339,5,701961,M637
+339,6,701962,M638
+339,7,701963,M639
+340,0,702000,A640
+340,1,702001,A641
+340,2,702002,A642
+340,3,702003,A643
+340,4,702004,A644
+340,5,702005,A645
+340,6,702006,A646
+340,7,702007,A647
+341,0,702008,A648
+341,1,702009,A649
+341,2,702010,A650
+341,3,702011,A651
+341,4,702012,A652
+341,5,702013,A653
+341,6,702014,A654
+341,7,702015,A655
+342,0,702016,A656
+342,1,702017,A657
+342,2,702018,A658
+342,3,702019,A659
+342,4,702020,A660
+342,5,702021,A661
+342,6,702022,A662
+342,7,702023,A663
+343,0,702024,A664
+343,1,702025,A665
+343,2,702026,A666
+343,3,702027,A667
+343,4,702028,A668
+343,5,702029,A669
+343,6,702030,A670
+343,7,702031,A671
+344,0,702032,M640
+344,1,702033,M641
+344,2,702034,M642
+344,3,702035,M643
+344,4,702036,M644
+344,5,702037,M645
+344,6,702038,M646
+344,7,702039,M647
+345,0,702040,M648
+345,1,702041,M649
+345,2,702042,M650
+345,3,702043,M651
+345,4,702044,M652
+345,5,702045,M653
+345,6,702046,M654
+345,7,702047,M655
+346,0,702048,M656
+346,1,702049,M657
+346,2,702050,M658
+346,3,702051,M659
+346,4,702052,M660
+346,5,702053,M661
+346,6,702054,M662
+346,7,702055,M663
+347,0,702056,M664
+347,1,702057,M665
+347,2,702058,M666
+347,3,702059,M667
+347,4,702060,M668
+347,5,702061,M669
+347,6,702062,M670
+347,7,702063,M671
